@@ -211,7 +211,7 @@ def clean_file(path, sid: str, year: int) -> tuple[pd.DataFrame, dict, dict]:
 
 
 def write_diagnostic(pc: pd.DataFrame, target: str) -> None:
-    by_st = pc.groupby("station")[[c for c in pc.columns if c not in ("station", "season")]].sum()
+    by_st = pc.groupby("station")[[c for c in pc.columns if c not in ("station", "season")]].sum().astype(int)
     by_st["raw_missing_pct"] = 100 * by_st.raw_missing / by_st.obs
     t = by_st.loc[target]
     lines = ["# p01i missing-value diagnostic", "",
@@ -224,8 +224,9 @@ def write_diagnostic(pc: pd.DataFrame, target: str) -> None:
              f"## Target station {target}", "",
              "| obs | raw missing | (a) PNO | (b) P group | (c) precip wx | (d) dry | (e) no METAR |",
              "|---|---|---|---|---|---|---|",
-             f"| {t.obs:,} | {t.raw_missing:,} ({t.raw_missing_pct:.1f}%) | {t.a_pno:,} | {t.b_pgroup_parsed:,} | "
-             f"{t.c_precip_wx_no_pgroup:,} | {t.d_dry_no_pgroup:,} | {t.e_no_metar:,} |", "",
+             f"| {int(t.obs):,} | {int(t.raw_missing):,} ({t.raw_missing_pct:.1f}%) | {int(t.a_pno):,} | "
+             f"{int(t.b_pgroup_parsed):,} | {int(t.c_precip_wx_no_pgroup):,} | {int(t.d_dry_no_pgroup):,} | "
+             f"{int(t.e_no_metar):,} |", "",
              f"### {target} by season", "",
              "| season | obs | raw missing | (a) | (b) | (c) | (d) | (e) |", "|---|---|---|---|---|---|---|---|"]
     for r in pc[pc.station == target].itertuples():
@@ -234,8 +235,9 @@ def write_diagnostic(pc: pd.DataFrame, target: str) -> None:
     lines += ["", "## All stations", "",
               "| station | obs | raw missing % | (a) | (b) | (c) | (d) | (e) |", "|---|---|---|---|---|---|---|---|"]
     for sid, r in by_st.iterrows():
-        lines.append(f"| {sid} | {r.obs:,} | {r.raw_missing_pct:.1f} | {r.a_pno:,} | {r.b_pgroup_parsed:,} | "
-                     f"{r.c_precip_wx_no_pgroup:,} | {r.d_dry_no_pgroup:,} | {r.e_no_metar:,} |")
+        lines.append(f"| {sid} | {int(r.obs):,} | {r.raw_missing_pct:.1f} | {int(r.a_pno):,} | "
+                     f"{int(r.b_pgroup_parsed):,} | {int(r.c_precip_wx_no_pgroup):,} | {int(r.d_dry_no_pgroup):,} | "
+                     f"{int(r.e_no_metar):,} |")
     DIAG_PATH.write_text("\n".join(lines) + "\n")
 
 
