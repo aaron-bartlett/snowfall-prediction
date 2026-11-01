@@ -1,0 +1,10 @@
+{
+  "evaluated_at": "2026-11-01T15:39:33+00:00",
+  "git_commit": "9e57483888b4917a08cd310e687703ba3cb3dfa5",
+  "test_seasons": [
+    "2015-16",
+    "2020-21",
+    "2021-22"
+  ],
+  "forced": false
+}
