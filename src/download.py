@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import argparse
 import hashlib
+import io
 import sys
 import threading
 import time
@@ -97,6 +98,56 @@ def download_one(sid: str, year: int, cfg, get=requests.get, sleep=time.sleep) -
     return "failed"
 
 
+def window_hours(year: int, window=("09-01", "05-01")) -> int:
+    lo = pd.Timestamp(f"{year}-{window[0]}")
+    hi = pd.Timestamp(f"{year + 1}-{window[1]}")
+    return int((hi - lo) / pd.Timedelta(hours=1))
+
+
+def backfill_routine(sid: str, year: int, cfg, get=requests.get, sleep=time.sleep, min_frac: float = 0.8) -> str:
+    """Fill gaps where IEM has obs but they are not tagged as routine (report_type=3 returns nothing).
+
+    Re-downloads the station-season without the report_type filter, keeps only obs at the station's
+    routine minute (the most common minute among existing routine rows, or in the unfiltered
+    data if there are none), and merges them with the existing
+    routine rows. Returns 'not_needed', 'backfilled', or 'failed'.
+    """
+    path = asos_path(sid, year)
+    cols = cfg.asos_columns
+    win = (cfg.download_window["start"], cfg.download_window["end"])
+    ok, rows = validate_file(path, cols)
+    if ok and rows >= min_frac * window_hours(year, win):
+        return "not_needed"
+    url = build_asos_url(sid, year, cols, win).replace("&report_type=3", "")
+    for attempt in range(len(RETRY_WAITS[: cfg.download["retries"]]) + 1):
+        try:
+            r = get(url, timeout=cfg.download["timeout_s"])
+            if r.status_code != 200 or not header_ok(r.text.split("\n", 1)[0], cols):
+                raise RuntimeError(f"HTTP {r.status_code}: {r.text[:80]!r}")
+            allobs = pd.read_csv(io.StringIO(r.text), dtype=str, keep_default_na=False)
+            minute = allobs["valid"].str[14:16]
+            have = pd.read_csv(path, dtype=str, keep_default_na=False) if ok else allobs.iloc[0:0]
+            # Prefer the minute of the rows IEM already tags as routine; else the unfiltered mode.
+            routine_min = (have["valid"].str[14:16] if len(have) else minute).mode().iloc[0]
+            extra = allobs[minute == routine_min]
+            merged = (pd.concat([have, extra], ignore_index=True)
+                      .drop_duplicates("valid").sort_values("valid", kind="stable"))
+            tmp = path.with_name(path.name + ".part")
+            path.parent.mkdir(parents=True, exist_ok=True)
+            merged.to_csv(tmp, index=False)
+            tmp.rename(path)
+            print(f"  backfilled {sid} {season_label(year)}: {rows} -> {len(merged)} rows "
+                  f"(routine minute :{routine_min})", flush=True)
+            sleep(cfg.download["sleep_s"])
+            return "backfilled"
+        except Exception as e:  # noqa: BLE001
+            if attempt < len(RETRY_WAITS[: cfg.download["retries"]]):
+                sleep(RETRY_WAITS[attempt])
+            else:
+                print(f"  backfill failed {sid} {season_label(year)}: {e}", flush=True)
+    return "failed"
+
+
 def sha256(path: Path) -> str:
     h = hashlib.sha256()
     with open(path, "rb") as fh:
@@ -139,6 +190,8 @@ def download_asos(sids, years, cfg) -> pd.DataFrame:
 
     with ThreadPoolExecutor(cfg.download["workers"]) as ex:
         list(ex.map(run, jobs))
+    backfilled = [job for job in jobs if backfill_routine(*job, cfg) == "backfilled"]
+    print(f"backfilled {len(backfilled)} station-seasons: {backfilled}", flush=True)
     return write_manifest(sids, years, cfg)
 
 
