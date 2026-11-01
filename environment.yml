@@ -1,0 +1,17 @@
+name: snowfall
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - lightgbm
+  - pandas
+  - pyarrow
+  - numpy
+  - scikit-learn
+  - optuna
+  - shap
+  - matplotlib
+  - cartopy
+  - requests
+  - pyyaml
+  - pytest

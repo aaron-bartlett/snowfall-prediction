@@ -1,0 +1,8 @@
+data/
+logs/
+models/**/*.txt
+models/**/*.db
+__pycache__/
+.pytest_cache/
+*.part
+.DS_Store
