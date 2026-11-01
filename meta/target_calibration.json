@@ -1,0 +1,6 @@
+{
+  "depth_correction_factor": 1.365,
+  "fit_on": "train seasons",
+  "definition": "sum(GHCN SNOW) / sum(derived hourly depth) over LST days with >= 20 available target hours",
+  "applied_to_target": false
+}
