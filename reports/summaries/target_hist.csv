@@ -1,0 +1,16 @@
+split,cls,hours
+test,0.01-0.02,244
+test,0.03-0.05,86
+test,>=0.06,31
+test,no snow,13991
+test,trace,919
+train,0.01-0.02,1104
+train,0.03-0.05,373
+train,>=0.06,164
+train,no snow,69721
+train,trace,4656
+val,0.01-0.02,252
+val,0.03-0.05,103
+val,>=0.06,38
+val,no snow,13803
+val,trace,1051

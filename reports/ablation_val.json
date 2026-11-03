@@ -1,0 +1,122 @@
+{
+  "leads": {
+    "1": {
+      "lead": 1,
+      "params_from": "models/lead_1h/metadata.json",
+      "shipped_cv_logloss": 0.09800108167574653,
+      "sets": [
+        {
+          "set": "A: KDTW only",
+          "n_features": 267,
+          "cv_logloss": 0.12146979463332444,
+          "n_estimators": 792,
+          "val_logloss_raw": 0.1228215999339264,
+          "val_brier_raw": 0.0356204448174884,
+          "val_roc_auc": 0.9715512585786181,
+          "val_pr_auc": 0.8213660349521777,
+          "val_csi_best_tau": 0.6289772727272728,
+          "val_best_tau": 0.34,
+          "seconds": 72
+        },
+        {
+          "set": "C: KDTW + spatial aggregates",
+          "n_features": 379,
+          "cv_logloss": 0.10956227593346013,
+          "n_estimators": 379,
+          "val_logloss_raw": 0.0999055089741292,
+          "val_brier_raw": 0.029838476857948073,
+          "val_roc_auc": 0.9832564300626765,
+          "val_pr_auc": 0.88228319008671,
+          "val_csi_best_tau": 0.6798603026775321,
+          "val_best_tau": 0.37,
+          "seconds": 66
+        },
+        {
+          "set": "B: KDTW + neighbor raw lags",
+          "n_features": 1515,
+          "cv_logloss": 0.09896763641678036,
+          "n_estimators": 575,
+          "val_logloss_raw": 0.09614616924994983,
+          "val_brier_raw": 0.028600275425748774,
+          "val_roc_auc": 0.9832968183278636,
+          "val_pr_auc": 0.8860677913226401,
+          "val_csi_best_tau": 0.6746920492721165,
+          "val_best_tau": 0.31,
+          "seconds": 426
+        },
+        {
+          "set": "D: full",
+          "n_features": 1627,
+          "cv_logloss": 0.09800108167574653,
+          "n_estimators": 539,
+          "val_logloss_raw": 0.09733018497864192,
+          "val_brier_raw": 0.029209288907314647,
+          "val_roc_auc": 0.9834470325713046,
+          "val_pr_auc": 0.8841669679464871,
+          "val_csi_best_tau": 0.6664729808251016,
+          "val_best_tau": 0.39,
+          "seconds": 382
+        }
+      ]
+    },
+    "3": {
+      "lead": 3,
+      "params_from": "models/lead_3h/metadata.json",
+      "shipped_cv_logloss": 0.12669010270113168,
+      "sets": [
+        {
+          "set": "A: KDTW only",
+          "n_features": 267,
+          "cv_logloss": 0.154998706250788,
+          "n_estimators": 175,
+          "val_logloss_raw": 0.16639339192983368,
+          "val_brier_raw": 0.05041668357316122,
+          "val_roc_auc": 0.9402081084384282,
+          "val_pr_auc": 0.6500800396080048,
+          "val_csi_best_tau": 0.4629798903107861,
+          "val_best_tau": 0.27,
+          "seconds": 21
+        },
+        {
+          "set": "C: KDTW + spatial aggregates",
+          "n_features": 379,
+          "cv_logloss": 0.12926286014219138,
+          "n_estimators": 209,
+          "val_logloss_raw": 0.13776581766714063,
+          "val_brier_raw": 0.041949858010647004,
+          "val_roc_auc": 0.9624828136642984,
+          "val_pr_auc": 0.7509840132053497,
+          "val_csi_best_tau": 0.5250737463126843,
+          "val_best_tau": 0.32,
+          "seconds": 27
+        },
+        {
+          "set": "B: KDTW + neighbor raw lags",
+          "n_features": 1515,
+          "cv_logloss": 0.12782534561868064,
+          "n_estimators": 270,
+          "val_logloss_raw": 0.13701633900943494,
+          "val_brier_raw": 0.04137935723287172,
+          "val_roc_auc": 0.9621099371588696,
+          "val_pr_auc": 0.7565734174261641,
+          "val_csi_best_tau": 0.5239074550128535,
+          "val_best_tau": 0.34,
+          "seconds": 182
+        },
+        {
+          "set": "D: full",
+          "n_features": 1627,
+          "cv_logloss": 0.12669010270113168,
+          "n_estimators": 272,
+          "val_logloss_raw": 0.13503845689414684,
+          "val_brier_raw": 0.041015317000460974,
+          "val_roc_auc": 0.9638628882115033,
+          "val_pr_auc": 0.7584002284988772,
+          "val_csi_best_tau": 0.5302954431647471,
+          "val_best_tau": 0.33,
+          "seconds": 206
+        }
+      ]
+    }
+  }
+}

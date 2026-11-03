@@ -8,3 +8,7 @@ __pycache__/
 .DS_Store
 *.swp
 *.swo
+_private/
+.Rhistory
+*.Rhistory
+!models/lead_*h/*.txt

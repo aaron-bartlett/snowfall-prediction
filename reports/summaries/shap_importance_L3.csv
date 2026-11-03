@@ -1,0 +1,1628 @@
+feature,family,station,var,lag,mean_abs_shap
+DTW_tmpf_lag1,KDTW lags,DTW,tmpf,1.0,0.011102897417219981
+DTW_tmpf_lag2,KDTW lags,DTW,tmpf,2.0,0.0021026586058041203
+DTW_tmpf_lag3,KDTW lags,DTW,tmpf,3.0,0.0005269942505531129
+DTW_tmpf_lag4,KDTW lags,DTW,tmpf,4.0,0.0025811021353129167
+DTW_tmpf_lag5,KDTW lags,DTW,tmpf,5.0,0.0015573634431611306
+DTW_tmpf_lag6,KDTW lags,DTW,tmpf,6.0,0.0019013178260075694
+DTW_tmpf_lag7,KDTW lags,DTW,tmpf,7.0,0.00028220788708128904
+DTW_tmpf_lag8,KDTW lags,DTW,tmpf,8.0,0.0067460906437211915
+DTW_tmpf_lag9,KDTW lags,DTW,tmpf,9.0,0.0025968052198521593
+DTW_tmpf_lag10,KDTW lags,DTW,tmpf,10.0,0.015334879763003522
+DTW_tmpf_lag11,KDTW lags,DTW,tmpf,11.0,0.005469088505600212
+DTW_tmpf_lag12,KDTW lags,DTW,tmpf,12.0,0.005370280873660624
+DTW_dwpf_lag1,KDTW lags,DTW,dwpf,1.0,0.0026142506830107875
+DTW_dwpf_lag2,KDTW lags,DTW,dwpf,2.0,0.0011232397374316976
+DTW_dwpf_lag3,KDTW lags,DTW,dwpf,3.0,0.005636956788494462
+DTW_dwpf_lag4,KDTW lags,DTW,dwpf,4.0,0.0004087670038928057
+DTW_dwpf_lag5,KDTW lags,DTW,dwpf,5.0,0.0002193202657191447
+DTW_dwpf_lag6,KDTW lags,DTW,dwpf,6.0,0.0009095455289163738
+DTW_dwpf_lag7,KDTW lags,DTW,dwpf,7.0,0.0015255663401603228
+DTW_dwpf_lag8,KDTW lags,DTW,dwpf,8.0,0.0
+DTW_dwpf_lag9,KDTW lags,DTW,dwpf,9.0,0.0008390713922114686
+DTW_dwpf_lag10,KDTW lags,DTW,dwpf,10.0,0.0034977169872344597
+DTW_dwpf_lag11,KDTW lags,DTW,dwpf,11.0,0.0018669293877995223
+DTW_dwpf_lag12,KDTW lags,DTW,dwpf,12.0,0.003618661952352991
+DTW_relh_lag1,KDTW lags,DTW,relh,1.0,0.008743162787842481
+DTW_relh_lag2,KDTW lags,DTW,relh,2.0,0.015302903294523086
+DTW_relh_lag3,KDTW lags,DTW,relh,3.0,0.0035018091187408954
+DTW_relh_lag4,KDTW lags,DTW,relh,4.0,0.004147339412849118
+DTW_relh_lag5,KDTW lags,DTW,relh,5.0,0.0023089644545658144
+DTW_relh_lag6,KDTW lags,DTW,relh,6.0,0.0006528168741934252
+DTW_relh_lag7,KDTW lags,DTW,relh,7.0,0.0018363823157966671
+DTW_relh_lag8,KDTW lags,DTW,relh,8.0,0.0013409678439934311
+DTW_relh_lag9,KDTW lags,DTW,relh,9.0,0.001700730936842761
+DTW_relh_lag10,KDTW lags,DTW,relh,10.0,0.005134805145271399
+DTW_relh_lag11,KDTW lags,DTW,relh,11.0,0.001323217099325033
+DTW_relh_lag12,KDTW lags,DTW,relh,12.0,0.005807155179347078
+DTW_dewpoint_depression_lag1,KDTW lags,DTW,dewpoint_depression,1.0,0.0014497246460065233
+DTW_dewpoint_depression_lag2,KDTW lags,DTW,dewpoint_depression,2.0,0.004485123734751183
+DTW_dewpoint_depression_lag3,KDTW lags,DTW,dewpoint_depression,3.0,0.002020538578391843
+DTW_dewpoint_depression_lag4,KDTW lags,DTW,dewpoint_depression,4.0,0.0003793350795251126
+DTW_dewpoint_depression_lag5,KDTW lags,DTW,dewpoint_depression,5.0,0.0009868353591409417
+DTW_dewpoint_depression_lag6,KDTW lags,DTW,dewpoint_depression,6.0,0.0021672799134558928
+DTW_dewpoint_depression_lag7,KDTW lags,DTW,dewpoint_depression,7.0,0.0013911251312442301
+DTW_dewpoint_depression_lag8,KDTW lags,DTW,dewpoint_depression,8.0,0.002892364002302099
+DTW_dewpoint_depression_lag9,KDTW lags,DTW,dewpoint_depression,9.0,0.0013905909155151202
+DTW_dewpoint_depression_lag10,KDTW lags,DTW,dewpoint_depression,10.0,0.000535205077530945
+DTW_dewpoint_depression_lag11,KDTW lags,DTW,dewpoint_depression,11.0,0.0009471324615128392
+DTW_dewpoint_depression_lag12,KDTW lags,DTW,dewpoint_depression,12.0,0.0027435725828674922
+DTW_u_lag1,KDTW lags,DTW,u,1.0,0.012679003736501196
+DTW_u_lag2,KDTW lags,DTW,u,2.0,0.002295284079675936
+DTW_u_lag3,KDTW lags,DTW,u,3.0,0.00025389280795556863
+DTW_u_lag4,KDTW lags,DTW,u,4.0,0.003243442064419626
+DTW_u_lag5,KDTW lags,DTW,u,5.0,0.0016395604807309463
+DTW_u_lag6,KDTW lags,DTW,u,6.0,0.000956635545676599
+DTW_u_lag7,KDTW lags,DTW,u,7.0,0.002881708945975662
+DTW_u_lag8,KDTW lags,DTW,u,8.0,0.0017441667454666512
+DTW_u_lag9,KDTW lags,DTW,u,9.0,0.0037189062069960975
+DTW_u_lag10,KDTW lags,DTW,u,10.0,0.0017036971385296607
+DTW_u_lag11,KDTW lags,DTW,u,11.0,0.001899969961528415
+DTW_u_lag12,KDTW lags,DTW,u,12.0,0.002683862321983153
+DTW_v_lag1,KDTW lags,DTW,v,1.0,0.004439675514631739
+DTW_v_lag2,KDTW lags,DTW,v,2.0,0.0016035380729466514
+DTW_v_lag3,KDTW lags,DTW,v,3.0,0.0023383407784967115
+DTW_v_lag4,KDTW lags,DTW,v,4.0,0.0012642322399939103
+DTW_v_lag5,KDTW lags,DTW,v,5.0,0.005139192813727408
+DTW_v_lag6,KDTW lags,DTW,v,6.0,0.0018034474780480667
+DTW_v_lag7,KDTW lags,DTW,v,7.0,0.0016889226653138683
+DTW_v_lag8,KDTW lags,DTW,v,8.0,0.0027538024506220298
+DTW_v_lag9,KDTW lags,DTW,v,9.0,0.004989550498196028
+DTW_v_lag10,KDTW lags,DTW,v,10.0,0.004114356188149377
+DTW_v_lag11,KDTW lags,DTW,v,11.0,0.0021573371016667883
+DTW_v_lag12,KDTW lags,DTW,v,12.0,0.0015680199884597669
+DTW_sknt_lag1,KDTW lags,DTW,sknt,1.0,0.0027733629475642264
+DTW_sknt_lag2,KDTW lags,DTW,sknt,2.0,0.001880385788129071
+DTW_sknt_lag3,KDTW lags,DTW,sknt,3.0,0.0015137009476290256
+DTW_sknt_lag4,KDTW lags,DTW,sknt,4.0,0.004754601019538578
+DTW_sknt_lag5,KDTW lags,DTW,sknt,5.0,0.0007941789666352512
+DTW_sknt_lag6,KDTW lags,DTW,sknt,6.0,0.0
+DTW_sknt_lag7,KDTW lags,DTW,sknt,7.0,0.0010606795904749187
+DTW_sknt_lag8,KDTW lags,DTW,sknt,8.0,0.001806986567203695
+DTW_sknt_lag9,KDTW lags,DTW,sknt,9.0,0.0012984498885777634
+DTW_sknt_lag10,KDTW lags,DTW,sknt,10.0,0.0028710261346300125
+DTW_sknt_lag11,KDTW lags,DTW,sknt,11.0,0.002021519814377348
+DTW_sknt_lag12,KDTW lags,DTW,sknt,12.0,0.0007041680053187487
+DTW_gust_lag1,KDTW lags,DTW,gust,1.0,0.0007676253154338281
+DTW_gust_lag2,KDTW lags,DTW,gust,2.0,0.0006435216057736337
+DTW_gust_lag3,KDTW lags,DTW,gust,3.0,0.0
+DTW_gust_lag4,KDTW lags,DTW,gust,4.0,0.0007750380001593696
+DTW_gust_lag5,KDTW lags,DTW,gust,5.0,0.0006010350685130143
+DTW_gust_lag6,KDTW lags,DTW,gust,6.0,0.0007693384769071548
+DTW_gust_lag7,KDTW lags,DTW,gust,7.0,0.0010020662337253947
+DTW_gust_lag8,KDTW lags,DTW,gust,8.0,0.00012050309031051771
+DTW_gust_lag9,KDTW lags,DTW,gust,9.0,0.00047330724233058053
+DTW_gust_lag10,KDTW lags,DTW,gust,10.0,0.0007085926218057065
+DTW_gust_lag11,KDTW lags,DTW,gust,11.0,0.001784227039609608
+DTW_gust_lag12,KDTW lags,DTW,gust,12.0,0.0027222224123405795
+DTW_mslp_lag1,KDTW lags,DTW,mslp,1.0,0.00041577231965492657
+DTW_mslp_lag2,KDTW lags,DTW,mslp,2.0,0.0012670291623251382
+DTW_mslp_lag3,KDTW lags,DTW,mslp,3.0,0.000737575373250476
+DTW_mslp_lag4,KDTW lags,DTW,mslp,4.0,0.00047689736949654317
+DTW_mslp_lag5,KDTW lags,DTW,mslp,5.0,0.0005884096921537704
+DTW_mslp_lag6,KDTW lags,DTW,mslp,6.0,0.0005620688212769169
+DTW_mslp_lag7,KDTW lags,DTW,mslp,7.0,0.0006389740237333048
+DTW_mslp_lag8,KDTW lags,DTW,mslp,8.0,0.0020029076635543924
+DTW_mslp_lag9,KDTW lags,DTW,mslp,9.0,0.00025596914670347244
+DTW_mslp_lag10,KDTW lags,DTW,mslp,10.0,0.004104004915274564
+DTW_mslp_lag11,KDTW lags,DTW,mslp,11.0,0.0037972852323565178
+DTW_mslp_lag12,KDTW lags,DTW,mslp,12.0,0.002774152846952668
+DTW_alti_lag1,KDTW lags,DTW,alti,1.0,0.0005131011428672199
+DTW_alti_lag2,KDTW lags,DTW,alti,2.0,0.0
+DTW_alti_lag3,KDTW lags,DTW,alti,3.0,0.0007830688309575313
+DTW_alti_lag4,KDTW lags,DTW,alti,4.0,0.0002371181304349443
+DTW_alti_lag5,KDTW lags,DTW,alti,5.0,0.0008150165164623798
+DTW_alti_lag6,KDTW lags,DTW,alti,6.0,6.376754220157715e-05
+DTW_alti_lag7,KDTW lags,DTW,alti,7.0,0.0002428627187796657
+DTW_alti_lag8,KDTW lags,DTW,alti,8.0,0.00018792700234041942
+DTW_alti_lag9,KDTW lags,DTW,alti,9.0,0.002122920374768206
+DTW_alti_lag10,KDTW lags,DTW,alti,10.0,0.0004506819192296594
+DTW_alti_lag11,KDTW lags,DTW,alti,11.0,0.0021947515734696992
+DTW_alti_lag12,KDTW lags,DTW,alti,12.0,0.0007031239384689243
+DTW_vsby_lag1,KDTW lags,DTW,vsby,1.0,0.0030030058270047394
+DTW_vsby_lag2,KDTW lags,DTW,vsby,2.0,0.002004550676379679
+DTW_vsby_lag3,KDTW lags,DTW,vsby,3.0,0.002751729055386673
+DTW_vsby_lag4,KDTW lags,DTW,vsby,4.0,0.0012368646549195373
+DTW_vsby_lag5,KDTW lags,DTW,vsby,5.0,0.003809491127215745
+DTW_vsby_lag6,KDTW lags,DTW,vsby,6.0,0.0012051838131998138
+DTW_vsby_lag7,KDTW lags,DTW,vsby,7.0,0.0014780638964215203
+DTW_vsby_lag8,KDTW lags,DTW,vsby,8.0,0.0023582518866451237
+DTW_vsby_lag9,KDTW lags,DTW,vsby,9.0,0.0011267073114324942
+DTW_vsby_lag10,KDTW lags,DTW,vsby,10.0,0.0004403324094697707
+DTW_vsby_lag11,KDTW lags,DTW,vsby,11.0,0.00212169509752087
+DTW_vsby_lag12,KDTW lags,DTW,vsby,12.0,0.0020455577798693322
+DTW_ceiling_ft_lag1,KDTW lags,DTW,ceiling_ft,1.0,0.14850375578959504
+DTW_ceiling_ft_lag2,KDTW lags,DTW,ceiling_ft,2.0,0.030919696864291704
+DTW_ceiling_ft_lag3,KDTW lags,DTW,ceiling_ft,3.0,0.010163224103765254
+DTW_ceiling_ft_lag4,KDTW lags,DTW,ceiling_ft,4.0,0.004711854545586634
+DTW_ceiling_ft_lag5,KDTW lags,DTW,ceiling_ft,5.0,0.0025713096946562773
+DTW_ceiling_ft_lag6,KDTW lags,DTW,ceiling_ft,6.0,0.007924059410697957
+DTW_ceiling_ft_lag7,KDTW lags,DTW,ceiling_ft,7.0,0.0038427888928246516
+DTW_ceiling_ft_lag8,KDTW lags,DTW,ceiling_ft,8.0,0.003141938746626062
+DTW_ceiling_ft_lag9,KDTW lags,DTW,ceiling_ft,9.0,0.008943714487762652
+DTW_ceiling_ft_lag10,KDTW lags,DTW,ceiling_ft,10.0,0.006949749963355404
+DTW_ceiling_ft_lag11,KDTW lags,DTW,ceiling_ft,11.0,0.00305676135527575
+DTW_ceiling_ft_lag12,KDTW lags,DTW,ceiling_ft,12.0,0.0034955826425954635
+DTW_sky_cover_lag1,KDTW lags,DTW,sky_cover,1.0,0.08411310168812117
+DTW_sky_cover_lag2,KDTW lags,DTW,sky_cover,2.0,0.025420060246509106
+DTW_sky_cover_lag3,KDTW lags,DTW,sky_cover,3.0,0.013701567755924614
+DTW_sky_cover_lag4,KDTW lags,DTW,sky_cover,4.0,0.0038097885271467205
+DTW_sky_cover_lag5,KDTW lags,DTW,sky_cover,5.0,0.00016353130575534055
+DTW_sky_cover_lag6,KDTW lags,DTW,sky_cover,6.0,0.0
+DTW_sky_cover_lag7,KDTW lags,DTW,sky_cover,7.0,0.0
+DTW_sky_cover_lag8,KDTW lags,DTW,sky_cover,8.0,0.00110581527372804
+DTW_sky_cover_lag9,KDTW lags,DTW,sky_cover,9.0,0.0027841746702882376
+DTW_sky_cover_lag10,KDTW lags,DTW,sky_cover,10.0,0.00017721055094883372
+DTW_sky_cover_lag11,KDTW lags,DTW,sky_cover,11.0,0.0020018513995323397
+DTW_sky_cover_lag12,KDTW lags,DTW,sky_cover,12.0,0.00025557470539742835
+DTW_p01i_lag1,KDTW lags,DTW,p01i,1.0,0.0007974426718750821
+DTW_p01i_lag2,KDTW lags,DTW,p01i,2.0,0.0
+DTW_p01i_lag3,KDTW lags,DTW,p01i,3.0,0.0
+DTW_p01i_lag4,KDTW lags,DTW,p01i,4.0,0.00016874148473567567
+DTW_p01i_lag5,KDTW lags,DTW,p01i,5.0,0.0001357770670844176
+DTW_p01i_lag6,KDTW lags,DTW,p01i,6.0,0.0
+DTW_p01i_lag7,KDTW lags,DTW,p01i,7.0,0.0
+DTW_p01i_lag8,KDTW lags,DTW,p01i,8.0,0.0006593099113106605
+DTW_p01i_lag9,KDTW lags,DTW,p01i,9.0,0.0001230910818979827
+DTW_p01i_lag10,KDTW lags,DTW,p01i,10.0,0.0
+DTW_p01i_lag11,KDTW lags,DTW,p01i,11.0,0.00011831458213199848
+DTW_p01i_lag12,KDTW lags,DTW,p01i,12.0,0.0003235017704660452
+DTW_wx_snow_lag1,KDTW lags,DTW,wx_snow,1.0,0.03100568912256253
+DTW_wx_snow_lag2,KDTW lags,DTW,wx_snow,2.0,0.0005351131482222722
+DTW_wx_snow_lag3,KDTW lags,DTW,wx_snow,3.0,0.0
+DTW_wx_snow_lag4,KDTW lags,DTW,wx_snow,4.0,0.0006684739017234299
+DTW_wx_snow_lag5,KDTW lags,DTW,wx_snow,5.0,0.0007362973388275587
+DTW_wx_snow_lag6,KDTW lags,DTW,wx_snow,6.0,0.00024598714988087776
+DTW_wx_snow_lag7,KDTW lags,DTW,wx_snow,7.0,0.0
+DTW_wx_snow_lag8,KDTW lags,DTW,wx_snow,8.0,0.0
+DTW_wx_snow_lag9,KDTW lags,DTW,wx_snow,9.0,0.00026574461880526733
+DTW_wx_snow_lag10,KDTW lags,DTW,wx_snow,10.0,0.0
+DTW_wx_snow_lag11,KDTW lags,DTW,wx_snow,11.0,0.0
+DTW_wx_snow_lag12,KDTW lags,DTW,wx_snow,12.0,0.00020701115950090245
+DTW_snow_intensity_lag1,KDTW lags,DTW,snow_intensity,1.0,0.027007580085914286
+DTW_snow_intensity_lag2,KDTW lags,DTW,snow_intensity,2.0,0.004740329862011814
+DTW_snow_intensity_lag3,KDTW lags,DTW,snow_intensity,3.0,0.0006257022498748965
+DTW_snow_intensity_lag4,KDTW lags,DTW,snow_intensity,4.0,0.0
+DTW_snow_intensity_lag5,KDTW lags,DTW,snow_intensity,5.0,0.0004779507631905638
+DTW_snow_intensity_lag6,KDTW lags,DTW,snow_intensity,6.0,0.0
+DTW_snow_intensity_lag7,KDTW lags,DTW,snow_intensity,7.0,0.0008334897874126597
+DTW_snow_intensity_lag8,KDTW lags,DTW,snow_intensity,8.0,0.00011381256941926121
+DTW_snow_intensity_lag9,KDTW lags,DTW,snow_intensity,9.0,0.0
+DTW_snow_intensity_lag10,KDTW lags,DTW,snow_intensity,10.0,0.0
+DTW_snow_intensity_lag11,KDTW lags,DTW,snow_intensity,11.0,0.0
+DTW_snow_intensity_lag12,KDTW lags,DTW,snow_intensity,12.0,0.0015563125001910824
+DTW_wx_rain_lag1,KDTW lags,DTW,wx_rain,1.0,0.0
+DTW_wx_rain_lag2,KDTW lags,DTW,wx_rain,2.0,0.0
+DTW_wx_rain_lag3,KDTW lags,DTW,wx_rain,3.0,0.0
+DTW_wx_rain_lag4,KDTW lags,DTW,wx_rain,4.0,0.0
+DTW_wx_rain_lag5,KDTW lags,DTW,wx_rain,5.0,0.0
+DTW_wx_rain_lag6,KDTW lags,DTW,wx_rain,6.0,0.0
+DTW_wx_rain_lag7,KDTW lags,DTW,wx_rain,7.0,0.0
+DTW_wx_rain_lag8,KDTW lags,DTW,wx_rain,8.0,0.0
+DTW_wx_rain_lag9,KDTW lags,DTW,wx_rain,9.0,0.0
+DTW_wx_rain_lag10,KDTW lags,DTW,wx_rain,10.0,0.0
+DTW_wx_rain_lag11,KDTW lags,DTW,wx_rain,11.0,0.0
+DTW_wx_rain_lag12,KDTW lags,DTW,wx_rain,12.0,0.0
+DTW_wx_fzra_lag1,KDTW lags,DTW,wx_fzra,1.0,0.0
+DTW_wx_fzra_lag2,KDTW lags,DTW,wx_fzra,2.0,0.0
+DTW_wx_fzra_lag3,KDTW lags,DTW,wx_fzra,3.0,0.0
+DTW_wx_fzra_lag4,KDTW lags,DTW,wx_fzra,4.0,0.0
+DTW_wx_fzra_lag5,KDTW lags,DTW,wx_fzra,5.0,0.0
+DTW_wx_fzra_lag6,KDTW lags,DTW,wx_fzra,6.0,0.0
+DTW_wx_fzra_lag7,KDTW lags,DTW,wx_fzra,7.0,0.0
+DTW_wx_fzra_lag8,KDTW lags,DTW,wx_fzra,8.0,0.0
+DTW_wx_fzra_lag9,KDTW lags,DTW,wx_fzra,9.0,0.0
+DTW_wx_fzra_lag10,KDTW lags,DTW,wx_fzra,10.0,0.0
+DTW_wx_fzra_lag11,KDTW lags,DTW,wx_fzra,11.0,0.0
+DTW_wx_fzra_lag12,KDTW lags,DTW,wx_fzra,12.0,0.0
+DTW_wx_pl_lag1,KDTW lags,DTW,wx_pl,1.0,0.0
+DTW_wx_pl_lag2,KDTW lags,DTW,wx_pl,2.0,0.0
+DTW_wx_pl_lag3,KDTW lags,DTW,wx_pl,3.0,0.0
+DTW_wx_pl_lag4,KDTW lags,DTW,wx_pl,4.0,0.0
+DTW_wx_pl_lag5,KDTW lags,DTW,wx_pl,5.0,0.0
+DTW_wx_pl_lag6,KDTW lags,DTW,wx_pl,6.0,0.0
+DTW_wx_pl_lag7,KDTW lags,DTW,wx_pl,7.0,0.0
+DTW_wx_pl_lag8,KDTW lags,DTW,wx_pl,8.0,0.0
+DTW_wx_pl_lag9,KDTW lags,DTW,wx_pl,9.0,0.0
+DTW_wx_pl_lag10,KDTW lags,DTW,wx_pl,10.0,0.0
+DTW_wx_pl_lag11,KDTW lags,DTW,wx_pl,11.0,0.0
+DTW_wx_pl_lag12,KDTW lags,DTW,wx_pl,12.0,0.0
+DTW_wx_fog_br_lag1,KDTW lags,DTW,wx_fog_br,1.0,0.0
+DTW_wx_fog_br_lag2,KDTW lags,DTW,wx_fog_br,2.0,0.005287534850424852
+DTW_wx_fog_br_lag3,KDTW lags,DTW,wx_fog_br,3.0,0.0011358022766052537
+DTW_wx_fog_br_lag4,KDTW lags,DTW,wx_fog_br,4.0,0.0
+DTW_wx_fog_br_lag5,KDTW lags,DTW,wx_fog_br,5.0,0.0
+DTW_wx_fog_br_lag6,KDTW lags,DTW,wx_fog_br,6.0,0.0
+DTW_wx_fog_br_lag7,KDTW lags,DTW,wx_fog_br,7.0,0.0
+DTW_wx_fog_br_lag8,KDTW lags,DTW,wx_fog_br,8.0,0.0
+DTW_wx_fog_br_lag9,KDTW lags,DTW,wx_fog_br,9.0,0.0
+DTW_wx_fog_br_lag10,KDTW lags,DTW,wx_fog_br,10.0,0.0
+DTW_wx_fog_br_lag11,KDTW lags,DTW,wx_fog_br,11.0,0.0
+DTW_wx_fog_br_lag12,KDTW lags,DTW,wx_fog_br,12.0,0.0
+DTW_wx_blsn_lag1,KDTW lags,DTW,wx_blsn,1.0,0.0
+DTW_wx_blsn_lag2,KDTW lags,DTW,wx_blsn,2.0,0.0
+DTW_wx_blsn_lag3,KDTW lags,DTW,wx_blsn,3.0,0.0
+DTW_wx_blsn_lag4,KDTW lags,DTW,wx_blsn,4.0,0.0
+DTW_wx_blsn_lag5,KDTW lags,DTW,wx_blsn,5.0,0.0
+DTW_wx_blsn_lag6,KDTW lags,DTW,wx_blsn,6.0,0.0
+DTW_wx_blsn_lag7,KDTW lags,DTW,wx_blsn,7.0,0.0
+DTW_wx_blsn_lag8,KDTW lags,DTW,wx_blsn,8.0,0.0
+DTW_wx_blsn_lag9,KDTW lags,DTW,wx_blsn,9.0,0.0
+DTW_wx_blsn_lag10,KDTW lags,DTW,wx_blsn,10.0,0.0
+DTW_wx_blsn_lag11,KDTW lags,DTW,wx_blsn,11.0,0.0
+DTW_wx_blsn_lag12,KDTW lags,DTW,wx_blsn,12.0,0.0
+DTW_mslp_tend1,KDTW windowed,DTW,mslp_tend1,,0.02802823431732396
+DTW_mslp_tend3,KDTW windowed,DTW,mslp_tend3,,0.03409175220500187
+DTW_mslp_tend6,KDTW windowed,DTW,mslp_tend6,,0.035940089352596113
+DTW_tmpf_tend1,KDTW windowed,DTW,tmpf_tend1,,0.0038209703116540263
+DTW_tmpf_tend3,KDTW windowed,DTW,tmpf_tend3,,0.00687815744986493
+DTW_tmpf_tend6,KDTW windowed,DTW,tmpf_tend6,,0.007689543703837244
+DTW_swe_sum3,KDTW windowed,DTW,swe_sum3,,0.0004987072752008255
+DTW_swe_sum6,KDTW windowed,DTW,swe_sum6,,7.255506350327784e-05
+DTW_swe_sum12,KDTW windowed,DTW,swe_sum12,,0.0006882008610111225
+DTW_hours_since_snow,KDTW windowed,DTW,hours_since_snow,,0.04404709677840442
+DTW_snow_streak,KDTW windowed,DTW,snow_streak,,0.0030841900831965014
+YIP_tmpf_lag1,Neighbor raw lags,YIP,tmpf,1.0,0.0007012247230392622
+YIP_tmpf_lag2,Neighbor raw lags,YIP,tmpf,2.0,0.0008493433823388706
+YIP_tmpf_lag3,Neighbor raw lags,YIP,tmpf,3.0,0.0
+YIP_tmpf_lag6,Neighbor raw lags,YIP,tmpf,6.0,0.0027011897906685854
+YIP_dwpf_lag1,Neighbor raw lags,YIP,dwpf,1.0,0.0068939823296199675
+YIP_dwpf_lag2,Neighbor raw lags,YIP,dwpf,2.0,0.001012927313833521
+YIP_dwpf_lag3,Neighbor raw lags,YIP,dwpf,3.0,0.0016071201575670615
+YIP_dwpf_lag6,Neighbor raw lags,YIP,dwpf,6.0,0.0013015416188648966
+YIP_u_lag1,Neighbor raw lags,YIP,u,1.0,0.0026047311558195572
+YIP_u_lag2,Neighbor raw lags,YIP,u,2.0,0.0031115763359181583
+YIP_u_lag3,Neighbor raw lags,YIP,u,3.0,0.005664564684248007
+YIP_u_lag6,Neighbor raw lags,YIP,u,6.0,0.007087165454844319
+YIP_v_lag1,Neighbor raw lags,YIP,v,1.0,0.0035713039152823435
+YIP_v_lag2,Neighbor raw lags,YIP,v,2.0,0.0031182205763251544
+YIP_v_lag3,Neighbor raw lags,YIP,v,3.0,0.0023264874905170136
+YIP_v_lag6,Neighbor raw lags,YIP,v,6.0,0.001549569660444033
+YIP_mslp_lag1,Neighbor raw lags,YIP,mslp,1.0,0.004298194116910193
+YIP_mslp_lag2,Neighbor raw lags,YIP,mslp,2.0,0.00018463780743805687
+YIP_mslp_lag3,Neighbor raw lags,YIP,mslp,3.0,0.000654220793126687
+YIP_mslp_lag6,Neighbor raw lags,YIP,mslp,6.0,0.0006522487881898979
+YIP_p01i_lag1,Neighbor raw lags,YIP,p01i,1.0,0.0
+YIP_p01i_lag2,Neighbor raw lags,YIP,p01i,2.0,0.0001627305454797118
+YIP_p01i_lag3,Neighbor raw lags,YIP,p01i,3.0,0.0011176546079223176
+YIP_p01i_lag6,Neighbor raw lags,YIP,p01i,6.0,0.0005430534462209811
+YIP_wx_snow_lag1,Neighbor raw lags,YIP,wx_snow,1.0,0.0001385749019663089
+YIP_wx_snow_lag2,Neighbor raw lags,YIP,wx_snow,2.0,0.0004933907026676888
+YIP_wx_snow_lag3,Neighbor raw lags,YIP,wx_snow,3.0,0.00024518472224890664
+YIP_wx_snow_lag6,Neighbor raw lags,YIP,wx_snow,6.0,0.0
+YIP_vsby_lag1,Neighbor raw lags,YIP,vsby,1.0,0.0007343035297739792
+YIP_vsby_lag2,Neighbor raw lags,YIP,vsby,2.0,0.0005181613638406188
+YIP_vsby_lag3,Neighbor raw lags,YIP,vsby,3.0,0.0026780242588942994
+YIP_vsby_lag6,Neighbor raw lags,YIP,vsby,6.0,0.0005951220844624715
+DET_tmpf_lag1,Neighbor raw lags,DET,tmpf,1.0,0.011768046533630032
+DET_tmpf_lag2,Neighbor raw lags,DET,tmpf,2.0,0.008930092705098206
+DET_tmpf_lag3,Neighbor raw lags,DET,tmpf,3.0,0.0
+DET_tmpf_lag6,Neighbor raw lags,DET,tmpf,6.0,0.005021992791201919
+DET_dwpf_lag1,Neighbor raw lags,DET,dwpf,1.0,0.026756810698480724
+DET_dwpf_lag2,Neighbor raw lags,DET,dwpf,2.0,0.003122500938802916
+DET_dwpf_lag3,Neighbor raw lags,DET,dwpf,3.0,0.0007284114692294724
+DET_dwpf_lag6,Neighbor raw lags,DET,dwpf,6.0,0.0013974002024280624
+DET_u_lag1,Neighbor raw lags,DET,u,1.0,0.01228593408114618
+DET_u_lag2,Neighbor raw lags,DET,u,2.0,0.004906481534675108
+DET_u_lag3,Neighbor raw lags,DET,u,3.0,0.00349796799211156
+DET_u_lag6,Neighbor raw lags,DET,u,6.0,0.0009435514960297306
+DET_v_lag1,Neighbor raw lags,DET,v,1.0,0.002506749073040045
+DET_v_lag2,Neighbor raw lags,DET,v,2.0,0.001731510747638806
+DET_v_lag3,Neighbor raw lags,DET,v,3.0,0.0031808626557504336
+DET_v_lag6,Neighbor raw lags,DET,v,6.0,0.0013595919735465533
+DET_mslp_lag1,Neighbor raw lags,DET,mslp,1.0,0.0018912631062851083
+DET_mslp_lag2,Neighbor raw lags,DET,mslp,2.0,0.0029710554822233136
+DET_mslp_lag3,Neighbor raw lags,DET,mslp,3.0,0.006075172392255052
+DET_mslp_lag6,Neighbor raw lags,DET,mslp,6.0,0.0030544701809073938
+DET_p01i_lag1,Neighbor raw lags,DET,p01i,1.0,0.0003857535298909649
+DET_p01i_lag2,Neighbor raw lags,DET,p01i,2.0,0.0
+DET_p01i_lag3,Neighbor raw lags,DET,p01i,3.0,0.00024537485330658655
+DET_p01i_lag6,Neighbor raw lags,DET,p01i,6.0,0.0
+DET_wx_snow_lag1,Neighbor raw lags,DET,wx_snow,1.0,5.85699903259267e-05
+DET_wx_snow_lag2,Neighbor raw lags,DET,wx_snow,2.0,0.0
+DET_wx_snow_lag3,Neighbor raw lags,DET,wx_snow,3.0,0.0
+DET_wx_snow_lag6,Neighbor raw lags,DET,wx_snow,6.0,0.001109376105389455
+DET_vsby_lag1,Neighbor raw lags,DET,vsby,1.0,0.0010181084627876981
+DET_vsby_lag2,Neighbor raw lags,DET,vsby,2.0,0.0005973027317024807
+DET_vsby_lag3,Neighbor raw lags,DET,vsby,3.0,0.0009216080015184618
+DET_vsby_lag6,Neighbor raw lags,DET,vsby,6.0,7.792989616155345e-05
+ARB_tmpf_lag1,Neighbor raw lags,ARB,tmpf,1.0,0.012272227790220021
+ARB_tmpf_lag2,Neighbor raw lags,ARB,tmpf,2.0,0.006074790277633361
+ARB_tmpf_lag3,Neighbor raw lags,ARB,tmpf,3.0,0.002520642407375819
+ARB_tmpf_lag6,Neighbor raw lags,ARB,tmpf,6.0,0.0005453265456963269
+ARB_dwpf_lag1,Neighbor raw lags,ARB,dwpf,1.0,0.022837513636467112
+ARB_dwpf_lag2,Neighbor raw lags,ARB,dwpf,2.0,0.0008697318498920975
+ARB_dwpf_lag3,Neighbor raw lags,ARB,dwpf,3.0,0.00023145148190208457
+ARB_dwpf_lag6,Neighbor raw lags,ARB,dwpf,6.0,0.00011715268737197955
+ARB_u_lag1,Neighbor raw lags,ARB,u,1.0,0.0023661747767580207
+ARB_u_lag2,Neighbor raw lags,ARB,u,2.0,0.004055562182046883
+ARB_u_lag3,Neighbor raw lags,ARB,u,3.0,0.005185625903775829
+ARB_u_lag6,Neighbor raw lags,ARB,u,6.0,0.003699411323530614
+ARB_v_lag1,Neighbor raw lags,ARB,v,1.0,0.0027501606280421168
+ARB_v_lag2,Neighbor raw lags,ARB,v,2.0,0.0019891927076329803
+ARB_v_lag3,Neighbor raw lags,ARB,v,3.0,0.0013779627951945664
+ARB_v_lag6,Neighbor raw lags,ARB,v,6.0,0.0014153606367770242
+ARB_mslp_lag1,Neighbor raw lags,ARB,mslp,1.0,0.0025391918649192787
+ARB_mslp_lag2,Neighbor raw lags,ARB,mslp,2.0,0.0015636230423015302
+ARB_mslp_lag3,Neighbor raw lags,ARB,mslp,3.0,0.0006332647960198837
+ARB_mslp_lag6,Neighbor raw lags,ARB,mslp,6.0,0.0014444025742713928
+ARB_p01i_lag1,Neighbor raw lags,ARB,p01i,1.0,0.0
+ARB_p01i_lag2,Neighbor raw lags,ARB,p01i,2.0,0.0
+ARB_p01i_lag3,Neighbor raw lags,ARB,p01i,3.0,6.634410705361997e-05
+ARB_p01i_lag6,Neighbor raw lags,ARB,p01i,6.0,0.0
+ARB_wx_snow_lag1,Neighbor raw lags,ARB,wx_snow,1.0,0.005127524803742912
+ARB_wx_snow_lag2,Neighbor raw lags,ARB,wx_snow,2.0,0.0
+ARB_wx_snow_lag3,Neighbor raw lags,ARB,wx_snow,3.0,0.0
+ARB_wx_snow_lag6,Neighbor raw lags,ARB,wx_snow,6.0,0.0
+ARB_vsby_lag1,Neighbor raw lags,ARB,vsby,1.0,0.00359809730035511
+ARB_vsby_lag2,Neighbor raw lags,ARB,vsby,2.0,0.0018307934283277546
+ARB_vsby_lag3,Neighbor raw lags,ARB,vsby,3.0,0.0008517480560788953
+ARB_vsby_lag6,Neighbor raw lags,ARB,vsby,6.0,0.0008372259198674854
+PTK_tmpf_lag1,Neighbor raw lags,PTK,tmpf,1.0,0.03450101509437771
+PTK_tmpf_lag2,Neighbor raw lags,PTK,tmpf,2.0,0.0024283156870472263
+PTK_tmpf_lag3,Neighbor raw lags,PTK,tmpf,3.0,0.0024759137693594136
+PTK_tmpf_lag6,Neighbor raw lags,PTK,tmpf,6.0,0.0026636399081743476
+PTK_dwpf_lag1,Neighbor raw lags,PTK,dwpf,1.0,0.004334643997435006
+PTK_dwpf_lag2,Neighbor raw lags,PTK,dwpf,2.0,0.0036609257117038324
+PTK_dwpf_lag3,Neighbor raw lags,PTK,dwpf,3.0,0.0002615371856614505
+PTK_dwpf_lag6,Neighbor raw lags,PTK,dwpf,6.0,0.0005779862444470427
+PTK_u_lag1,Neighbor raw lags,PTK,u,1.0,0.012524913882568269
+PTK_u_lag2,Neighbor raw lags,PTK,u,2.0,0.007593188782579641
+PTK_u_lag3,Neighbor raw lags,PTK,u,3.0,0.002084902123296864
+PTK_u_lag6,Neighbor raw lags,PTK,u,6.0,0.0014850286499284349
+PTK_v_lag1,Neighbor raw lags,PTK,v,1.0,0.004378485964891516
+PTK_v_lag2,Neighbor raw lags,PTK,v,2.0,0.004318552759674704
+PTK_v_lag3,Neighbor raw lags,PTK,v,3.0,0.003520691274167128
+PTK_v_lag6,Neighbor raw lags,PTK,v,6.0,0.0011738605574412838
+PTK_mslp_lag1,Neighbor raw lags,PTK,mslp,1.0,0.001213184231185058
+PTK_mslp_lag2,Neighbor raw lags,PTK,mslp,2.0,0.0019163524940546807
+PTK_mslp_lag3,Neighbor raw lags,PTK,mslp,3.0,0.000286467946655556
+PTK_mslp_lag6,Neighbor raw lags,PTK,mslp,6.0,0.005845589351183098
+PTK_p01i_lag1,Neighbor raw lags,PTK,p01i,1.0,0.0
+PTK_p01i_lag2,Neighbor raw lags,PTK,p01i,2.0,0.0001396539418415146
+PTK_p01i_lag3,Neighbor raw lags,PTK,p01i,3.0,0.0
+PTK_p01i_lag6,Neighbor raw lags,PTK,p01i,6.0,0.0006208692254015334
+PTK_wx_snow_lag1,Neighbor raw lags,PTK,wx_snow,1.0,0.012802073663402575
+PTK_wx_snow_lag2,Neighbor raw lags,PTK,wx_snow,2.0,0.0004892550375272647
+PTK_wx_snow_lag3,Neighbor raw lags,PTK,wx_snow,3.0,0.0007512971262038483
+PTK_wx_snow_lag6,Neighbor raw lags,PTK,wx_snow,6.0,0.00024066278651476547
+PTK_vsby_lag1,Neighbor raw lags,PTK,vsby,1.0,0.002712859079001341
+PTK_vsby_lag2,Neighbor raw lags,PTK,vsby,2.0,0.0022998443829553347
+PTK_vsby_lag3,Neighbor raw lags,PTK,vsby,3.0,0.0011715608574951394
+PTK_vsby_lag6,Neighbor raw lags,PTK,vsby,6.0,0.0001956974267861254
+ADG_tmpf_lag1,Neighbor raw lags,ADG,tmpf,1.0,0.003198994614931299
+ADG_tmpf_lag2,Neighbor raw lags,ADG,tmpf,2.0,0.00033205892631886676
+ADG_tmpf_lag3,Neighbor raw lags,ADG,tmpf,3.0,0.0014310894940499474
+ADG_tmpf_lag6,Neighbor raw lags,ADG,tmpf,6.0,0.0014723538176071324
+ADG_dwpf_lag1,Neighbor raw lags,ADG,dwpf,1.0,0.030281328562878292
+ADG_dwpf_lag2,Neighbor raw lags,ADG,dwpf,2.0,0.001957261074081095
+ADG_dwpf_lag3,Neighbor raw lags,ADG,dwpf,3.0,0.0032687786761500005
+ADG_dwpf_lag6,Neighbor raw lags,ADG,dwpf,6.0,0.0020037572864049277
+ADG_u_lag1,Neighbor raw lags,ADG,u,1.0,0.0015023256527036271
+ADG_u_lag2,Neighbor raw lags,ADG,u,2.0,0.0017631577597465949
+ADG_u_lag3,Neighbor raw lags,ADG,u,3.0,0.0007678386076865609
+ADG_u_lag6,Neighbor raw lags,ADG,u,6.0,0.0007265278946805506
+ADG_v_lag1,Neighbor raw lags,ADG,v,1.0,0.018895015605710108
+ADG_v_lag2,Neighbor raw lags,ADG,v,2.0,0.006423505372940274
+ADG_v_lag3,Neighbor raw lags,ADG,v,3.0,0.0032982032715209763
+ADG_v_lag6,Neighbor raw lags,ADG,v,6.0,0.0018643842046240711
+ADG_mslp_lag1,Neighbor raw lags,ADG,mslp,1.0,0.015262777564046323
+ADG_mslp_lag2,Neighbor raw lags,ADG,mslp,2.0,0.0026502043059115857
+ADG_mslp_lag3,Neighbor raw lags,ADG,mslp,3.0,0.0013960136710316408
+ADG_mslp_lag6,Neighbor raw lags,ADG,mslp,6.0,0.0009906773660750643
+ADG_p01i_lag1,Neighbor raw lags,ADG,p01i,1.0,0.0016886580581727962
+ADG_p01i_lag2,Neighbor raw lags,ADG,p01i,2.0,7.38472117736725e-05
+ADG_p01i_lag3,Neighbor raw lags,ADG,p01i,3.0,0.0
+ADG_p01i_lag6,Neighbor raw lags,ADG,p01i,6.0,0.0
+ADG_wx_snow_lag1,Neighbor raw lags,ADG,wx_snow,1.0,0.0014222928612469426
+ADG_wx_snow_lag2,Neighbor raw lags,ADG,wx_snow,2.0,0.0
+ADG_wx_snow_lag3,Neighbor raw lags,ADG,wx_snow,3.0,0.0003394169013467462
+ADG_wx_snow_lag6,Neighbor raw lags,ADG,wx_snow,6.0,0.0
+ADG_vsby_lag1,Neighbor raw lags,ADG,vsby,1.0,0.011958418754892723
+ADG_vsby_lag2,Neighbor raw lags,ADG,vsby,2.0,0.0014854093165187546
+ADG_vsby_lag3,Neighbor raw lags,ADG,vsby,3.0,0.0028482666528861435
+ADG_vsby_lag6,Neighbor raw lags,ADG,vsby,6.0,0.00015409911361438368
+TDZ_tmpf_lag1,Neighbor raw lags,TDZ,tmpf,1.0,0.0003988135030467172
+TDZ_tmpf_lag2,Neighbor raw lags,TDZ,tmpf,2.0,0.00043477020482986565
+TDZ_tmpf_lag3,Neighbor raw lags,TDZ,tmpf,3.0,0.006904906675925476
+TDZ_tmpf_lag6,Neighbor raw lags,TDZ,tmpf,6.0,0.005438072307633418
+TDZ_dwpf_lag1,Neighbor raw lags,TDZ,dwpf,1.0,0.00209046389778228
+TDZ_dwpf_lag2,Neighbor raw lags,TDZ,dwpf,2.0,0.0012434640163675936
+TDZ_dwpf_lag3,Neighbor raw lags,TDZ,dwpf,3.0,0.000898035313143341
+TDZ_dwpf_lag6,Neighbor raw lags,TDZ,dwpf,6.0,0.0022894956380936056
+TDZ_u_lag1,Neighbor raw lags,TDZ,u,1.0,0.0020818425564582965
+TDZ_u_lag2,Neighbor raw lags,TDZ,u,2.0,0.0026318389799137843
+TDZ_u_lag3,Neighbor raw lags,TDZ,u,3.0,0.0021191385405760995
+TDZ_u_lag6,Neighbor raw lags,TDZ,u,6.0,0.002607732407662282
+TDZ_v_lag1,Neighbor raw lags,TDZ,v,1.0,0.006285401117524611
+TDZ_v_lag2,Neighbor raw lags,TDZ,v,2.0,0.002657799857980126
+TDZ_v_lag3,Neighbor raw lags,TDZ,v,3.0,0.0035821925161860554
+TDZ_v_lag6,Neighbor raw lags,TDZ,v,6.0,0.004553455531650561
+TDZ_mslp_lag1,Neighbor raw lags,TDZ,mslp,1.0,0.0022396587368150368
+TDZ_mslp_lag2,Neighbor raw lags,TDZ,mslp,2.0,0.0007675472435832906
+TDZ_mslp_lag3,Neighbor raw lags,TDZ,mslp,3.0,0.0006638519049873241
+TDZ_mslp_lag6,Neighbor raw lags,TDZ,mslp,6.0,0.0017311472606224545
+TDZ_p01i_lag1,Neighbor raw lags,TDZ,p01i,1.0,0.0009646116730958631
+TDZ_p01i_lag2,Neighbor raw lags,TDZ,p01i,2.0,0.0
+TDZ_p01i_lag3,Neighbor raw lags,TDZ,p01i,3.0,0.0
+TDZ_p01i_lag6,Neighbor raw lags,TDZ,p01i,6.0,0.0006971058928304546
+TDZ_wx_snow_lag1,Neighbor raw lags,TDZ,wx_snow,1.0,0.0
+TDZ_wx_snow_lag2,Neighbor raw lags,TDZ,wx_snow,2.0,0.0
+TDZ_wx_snow_lag3,Neighbor raw lags,TDZ,wx_snow,3.0,0.0
+TDZ_wx_snow_lag6,Neighbor raw lags,TDZ,wx_snow,6.0,0.0005197257036126427
+TDZ_vsby_lag1,Neighbor raw lags,TDZ,vsby,1.0,0.0004476828105488286
+TDZ_vsby_lag2,Neighbor raw lags,TDZ,vsby,2.0,0.0013273812484554729
+TDZ_vsby_lag3,Neighbor raw lags,TDZ,vsby,3.0,0.0010981774529291862
+TDZ_vsby_lag6,Neighbor raw lags,TDZ,vsby,6.0,0.0011292426547940201
+TOL_tmpf_lag1,Neighbor raw lags,TOL,tmpf,1.0,0.009663661143587831
+TOL_tmpf_lag2,Neighbor raw lags,TOL,tmpf,2.0,0.001988548035601101
+TOL_tmpf_lag3,Neighbor raw lags,TOL,tmpf,3.0,0.0029887418670181153
+TOL_tmpf_lag6,Neighbor raw lags,TOL,tmpf,6.0,0.0001950379241126152
+TOL_dwpf_lag1,Neighbor raw lags,TOL,dwpf,1.0,0.0016918031315493304
+TOL_dwpf_lag2,Neighbor raw lags,TOL,dwpf,2.0,0.0013259396788478726
+TOL_dwpf_lag3,Neighbor raw lags,TOL,dwpf,3.0,0.0005179905464518324
+TOL_dwpf_lag6,Neighbor raw lags,TOL,dwpf,6.0,0.0011844090567529823
+TOL_u_lag1,Neighbor raw lags,TOL,u,1.0,0.0017327814183910942
+TOL_u_lag2,Neighbor raw lags,TOL,u,2.0,0.0022440587586578533
+TOL_u_lag3,Neighbor raw lags,TOL,u,3.0,0.004564095293499107
+TOL_u_lag6,Neighbor raw lags,TOL,u,6.0,0.002529383326957808
+TOL_v_lag1,Neighbor raw lags,TOL,v,1.0,0.0023375967181137147
+TOL_v_lag2,Neighbor raw lags,TOL,v,2.0,0.001460103998049589
+TOL_v_lag3,Neighbor raw lags,TOL,v,3.0,0.004368792035048852
+TOL_v_lag6,Neighbor raw lags,TOL,v,6.0,0.0020551559668505292
+TOL_mslp_lag1,Neighbor raw lags,TOL,mslp,1.0,0.0044716000075201694
+TOL_mslp_lag2,Neighbor raw lags,TOL,mslp,2.0,0.0
+TOL_mslp_lag3,Neighbor raw lags,TOL,mslp,3.0,0.00011804191248927109
+TOL_mslp_lag6,Neighbor raw lags,TOL,mslp,6.0,0.0004739658335564204
+TOL_p01i_lag1,Neighbor raw lags,TOL,p01i,1.0,0.002075735414212142
+TOL_p01i_lag2,Neighbor raw lags,TOL,p01i,2.0,0.0
+TOL_p01i_lag3,Neighbor raw lags,TOL,p01i,3.0,0.00034741976960153714
+TOL_p01i_lag6,Neighbor raw lags,TOL,p01i,6.0,0.0
+TOL_wx_snow_lag1,Neighbor raw lags,TOL,wx_snow,1.0,9.709754412488838e-05
+TOL_wx_snow_lag2,Neighbor raw lags,TOL,wx_snow,2.0,0.00026362649871769576
+TOL_wx_snow_lag3,Neighbor raw lags,TOL,wx_snow,3.0,5.711073253289212e-05
+TOL_wx_snow_lag6,Neighbor raw lags,TOL,wx_snow,6.0,5.683271446181387e-05
+TOL_vsby_lag1,Neighbor raw lags,TOL,vsby,1.0,5.983659331126492e-05
+TOL_vsby_lag2,Neighbor raw lags,TOL,vsby,2.0,0.0013864205408489817
+TOL_vsby_lag3,Neighbor raw lags,TOL,vsby,3.0,0.0007947662831126579
+TOL_vsby_lag6,Neighbor raw lags,TOL,vsby,6.0,0.0006755002300382753
+FNT_tmpf_lag1,Neighbor raw lags,FNT,tmpf,1.0,0.0165364747745428
+FNT_tmpf_lag2,Neighbor raw lags,FNT,tmpf,2.0,0.001334460142290401
+FNT_tmpf_lag3,Neighbor raw lags,FNT,tmpf,3.0,0.0003749726131644815
+FNT_tmpf_lag6,Neighbor raw lags,FNT,tmpf,6.0,0.0008118370142015797
+FNT_dwpf_lag1,Neighbor raw lags,FNT,dwpf,1.0,0.03762974598892941
+FNT_dwpf_lag2,Neighbor raw lags,FNT,dwpf,2.0,0.0005927831279600593
+FNT_dwpf_lag3,Neighbor raw lags,FNT,dwpf,3.0,0.0016434561818238248
+FNT_dwpf_lag6,Neighbor raw lags,FNT,dwpf,6.0,0.0027554223667646364
+FNT_u_lag1,Neighbor raw lags,FNT,u,1.0,0.012630192919210631
+FNT_u_lag2,Neighbor raw lags,FNT,u,2.0,0.012026768767688979
+FNT_u_lag3,Neighbor raw lags,FNT,u,3.0,0.002831738483137767
+FNT_u_lag6,Neighbor raw lags,FNT,u,6.0,0.0011798300877600614
+FNT_v_lag1,Neighbor raw lags,FNT,v,1.0,0.014525134031539216
+FNT_v_lag2,Neighbor raw lags,FNT,v,2.0,0.0035556496495578174
+FNT_v_lag3,Neighbor raw lags,FNT,v,3.0,0.0013730806822743274
+FNT_v_lag6,Neighbor raw lags,FNT,v,6.0,0.006304741875692268
+FNT_mslp_lag1,Neighbor raw lags,FNT,mslp,1.0,0.0014016449052599385
+FNT_mslp_lag2,Neighbor raw lags,FNT,mslp,2.0,0.001971715298915402
+FNT_mslp_lag3,Neighbor raw lags,FNT,mslp,3.0,0.0023350829029281303
+FNT_mslp_lag6,Neighbor raw lags,FNT,mslp,6.0,0.0020596044287145964
+FNT_p01i_lag1,Neighbor raw lags,FNT,p01i,1.0,0.0
+FNT_p01i_lag2,Neighbor raw lags,FNT,p01i,2.0,8.987529561856725e-05
+FNT_p01i_lag3,Neighbor raw lags,FNT,p01i,3.0,0.00010281940946627604
+FNT_p01i_lag6,Neighbor raw lags,FNT,p01i,6.0,0.0008400310405696842
+FNT_wx_snow_lag1,Neighbor raw lags,FNT,wx_snow,1.0,0.0008961541618855238
+FNT_wx_snow_lag2,Neighbor raw lags,FNT,wx_snow,2.0,6.120926340280337e-05
+FNT_wx_snow_lag3,Neighbor raw lags,FNT,wx_snow,3.0,0.0002850591094552449
+FNT_wx_snow_lag6,Neighbor raw lags,FNT,wx_snow,6.0,0.0
+FNT_vsby_lag1,Neighbor raw lags,FNT,vsby,1.0,0.0030257347009915348
+FNT_vsby_lag2,Neighbor raw lags,FNT,vsby,2.0,0.0005260040692202813
+FNT_vsby_lag3,Neighbor raw lags,FNT,vsby,3.0,0.0023270377539719215
+FNT_vsby_lag6,Neighbor raw lags,FNT,vsby,6.0,0.0
+JXN_tmpf_lag1,Neighbor raw lags,JXN,tmpf,1.0,0.12207737997461895
+JXN_tmpf_lag2,Neighbor raw lags,JXN,tmpf,2.0,0.03039421401595904
+JXN_tmpf_lag3,Neighbor raw lags,JXN,tmpf,3.0,0.004207350273507732
+JXN_tmpf_lag6,Neighbor raw lags,JXN,tmpf,6.0,0.0016704415984037432
+JXN_dwpf_lag1,Neighbor raw lags,JXN,dwpf,1.0,0.07431864930031506
+JXN_dwpf_lag2,Neighbor raw lags,JXN,dwpf,2.0,0.0015065398240299813
+JXN_dwpf_lag3,Neighbor raw lags,JXN,dwpf,3.0,0.00023623403670078522
+JXN_dwpf_lag6,Neighbor raw lags,JXN,dwpf,6.0,0.0010293195246234507
+JXN_u_lag1,Neighbor raw lags,JXN,u,1.0,0.002221109527749666
+JXN_u_lag2,Neighbor raw lags,JXN,u,2.0,0.0016957741639461077
+JXN_u_lag3,Neighbor raw lags,JXN,u,3.0,0.0026518149520086574
+JXN_u_lag6,Neighbor raw lags,JXN,u,6.0,0.0028416776671330276
+JXN_v_lag1,Neighbor raw lags,JXN,v,1.0,0.011387305220514099
+JXN_v_lag2,Neighbor raw lags,JXN,v,2.0,0.005484839050874171
+JXN_v_lag3,Neighbor raw lags,JXN,v,3.0,0.0047051206377573
+JXN_v_lag6,Neighbor raw lags,JXN,v,6.0,0.0007407575549824415
+JXN_mslp_lag1,Neighbor raw lags,JXN,mslp,1.0,0.0036137057114372737
+JXN_mslp_lag2,Neighbor raw lags,JXN,mslp,2.0,0.0012880720923328533
+JXN_mslp_lag3,Neighbor raw lags,JXN,mslp,3.0,0.001008057395735352
+JXN_mslp_lag6,Neighbor raw lags,JXN,mslp,6.0,0.006428063174938315
+JXN_p01i_lag1,Neighbor raw lags,JXN,p01i,1.0,0.0003974278533132082
+JXN_p01i_lag2,Neighbor raw lags,JXN,p01i,2.0,0.00045693071676520294
+JXN_p01i_lag3,Neighbor raw lags,JXN,p01i,3.0,0.00021160043068851544
+JXN_p01i_lag6,Neighbor raw lags,JXN,p01i,6.0,0.00040666899464363303
+JXN_wx_snow_lag1,Neighbor raw lags,JXN,wx_snow,1.0,0.01595607440571701
+JXN_wx_snow_lag2,Neighbor raw lags,JXN,wx_snow,2.0,0.0
+JXN_wx_snow_lag3,Neighbor raw lags,JXN,wx_snow,3.0,0.0
+JXN_wx_snow_lag6,Neighbor raw lags,JXN,wx_snow,6.0,0.0
+JXN_vsby_lag1,Neighbor raw lags,JXN,vsby,1.0,0.00870984023701604
+JXN_vsby_lag2,Neighbor raw lags,JXN,vsby,2.0,8.733492125097614e-05
+JXN_vsby_lag3,Neighbor raw lags,JXN,vsby,3.0,0.007556410577022618
+JXN_vsby_lag6,Neighbor raw lags,JXN,vsby,6.0,0.0009783017095364485
+LAN_tmpf_lag1,Neighbor raw lags,LAN,tmpf,1.0,0.030168209056961007
+LAN_tmpf_lag2,Neighbor raw lags,LAN,tmpf,2.0,0.03189387572801597
+LAN_tmpf_lag3,Neighbor raw lags,LAN,tmpf,3.0,0.0015050497521156769
+LAN_tmpf_lag6,Neighbor raw lags,LAN,tmpf,6.0,0.0014428796200585661
+LAN_dwpf_lag1,Neighbor raw lags,LAN,dwpf,1.0,0.07344154368133593
+LAN_dwpf_lag2,Neighbor raw lags,LAN,dwpf,2.0,0.0011242994320773403
+LAN_dwpf_lag3,Neighbor raw lags,LAN,dwpf,3.0,0.0019453671952197953
+LAN_dwpf_lag6,Neighbor raw lags,LAN,dwpf,6.0,0.0014028411389990494
+LAN_u_lag1,Neighbor raw lags,LAN,u,1.0,0.0027679519103937407
+LAN_u_lag2,Neighbor raw lags,LAN,u,2.0,0.006298905787398263
+LAN_u_lag3,Neighbor raw lags,LAN,u,3.0,0.0007115418107754329
+LAN_u_lag6,Neighbor raw lags,LAN,u,6.0,0.00546895442216506
+LAN_v_lag1,Neighbor raw lags,LAN,v,1.0,0.009441089771576145
+LAN_v_lag2,Neighbor raw lags,LAN,v,2.0,0.00587941084096778
+LAN_v_lag3,Neighbor raw lags,LAN,v,3.0,0.008798180334019173
+LAN_v_lag6,Neighbor raw lags,LAN,v,6.0,0.005920365239715692
+LAN_mslp_lag1,Neighbor raw lags,LAN,mslp,1.0,0.0029508620041172533
+LAN_mslp_lag2,Neighbor raw lags,LAN,mslp,2.0,0.00600648671419305
+LAN_mslp_lag3,Neighbor raw lags,LAN,mslp,3.0,0.001163946788679101
+LAN_mslp_lag6,Neighbor raw lags,LAN,mslp,6.0,0.0016766444914818276
+LAN_p01i_lag1,Neighbor raw lags,LAN,p01i,1.0,0.0011195629972159174
+LAN_p01i_lag2,Neighbor raw lags,LAN,p01i,2.0,0.0
+LAN_p01i_lag3,Neighbor raw lags,LAN,p01i,3.0,0.0002363919132152879
+LAN_p01i_lag6,Neighbor raw lags,LAN,p01i,6.0,0.0009470159253810095
+LAN_wx_snow_lag1,Neighbor raw lags,LAN,wx_snow,1.0,0.010273569462143374
+LAN_wx_snow_lag2,Neighbor raw lags,LAN,wx_snow,2.0,0.00028430298755816415
+LAN_wx_snow_lag3,Neighbor raw lags,LAN,wx_snow,3.0,0.0
+LAN_wx_snow_lag6,Neighbor raw lags,LAN,wx_snow,6.0,0.0010989722204651977
+LAN_vsby_lag1,Neighbor raw lags,LAN,vsby,1.0,0.02920516618716016
+LAN_vsby_lag2,Neighbor raw lags,LAN,vsby,2.0,0.0009713989838612486
+LAN_vsby_lag3,Neighbor raw lags,LAN,vsby,3.0,0.002024038989104045
+LAN_vsby_lag6,Neighbor raw lags,LAN,vsby,6.0,0.0010176662562358194
+LPR_tmpf_lag1,Neighbor raw lags,LPR,tmpf,1.0,0.0035215351606041247
+LPR_tmpf_lag2,Neighbor raw lags,LPR,tmpf,2.0,0.0008896127794394777
+LPR_tmpf_lag3,Neighbor raw lags,LPR,tmpf,3.0,0.004635220846023406
+LPR_tmpf_lag6,Neighbor raw lags,LPR,tmpf,6.0,0.002671870454366287
+LPR_dwpf_lag1,Neighbor raw lags,LPR,dwpf,1.0,0.0018981027343126858
+LPR_dwpf_lag2,Neighbor raw lags,LPR,dwpf,2.0,0.006867994049608129
+LPR_dwpf_lag3,Neighbor raw lags,LPR,dwpf,3.0,0.00043445664949807875
+LPR_dwpf_lag6,Neighbor raw lags,LPR,dwpf,6.0,0.0064925960409304125
+LPR_u_lag1,Neighbor raw lags,LPR,u,1.0,0.007175811635937426
+LPR_u_lag2,Neighbor raw lags,LPR,u,2.0,0.006672151555955598
+LPR_u_lag3,Neighbor raw lags,LPR,u,3.0,0.0016348733641780619
+LPR_u_lag6,Neighbor raw lags,LPR,u,6.0,0.0012930066205162356
+LPR_v_lag1,Neighbor raw lags,LPR,v,1.0,0.0033959376852626634
+LPR_v_lag2,Neighbor raw lags,LPR,v,2.0,0.008161137423172636
+LPR_v_lag3,Neighbor raw lags,LPR,v,3.0,0.003177414602645576
+LPR_v_lag6,Neighbor raw lags,LPR,v,6.0,0.0015664958328244528
+LPR_mslp_lag1,Neighbor raw lags,LPR,mslp,1.0,0.005404105106258236
+LPR_mslp_lag2,Neighbor raw lags,LPR,mslp,2.0,0.0018120036553138175
+LPR_mslp_lag3,Neighbor raw lags,LPR,mslp,3.0,0.005477375490883369
+LPR_mslp_lag6,Neighbor raw lags,LPR,mslp,6.0,0.0032347081695231674
+LPR_p01i_lag1,Neighbor raw lags,LPR,p01i,1.0,0.0
+LPR_p01i_lag2,Neighbor raw lags,LPR,p01i,2.0,0.0
+LPR_p01i_lag3,Neighbor raw lags,LPR,p01i,3.0,0.0008255046170580458
+LPR_p01i_lag6,Neighbor raw lags,LPR,p01i,6.0,0.0012244667046013092
+LPR_wx_snow_lag1,Neighbor raw lags,LPR,wx_snow,1.0,0.0
+LPR_wx_snow_lag2,Neighbor raw lags,LPR,wx_snow,2.0,0.0
+LPR_wx_snow_lag3,Neighbor raw lags,LPR,wx_snow,3.0,0.00017149943602606338
+LPR_wx_snow_lag6,Neighbor raw lags,LPR,wx_snow,6.0,3.641272490487323e-05
+LPR_vsby_lag1,Neighbor raw lags,LPR,vsby,1.0,0.0019977589647940277
+LPR_vsby_lag2,Neighbor raw lags,LPR,vsby,2.0,0.0007886764054715798
+LPR_vsby_lag3,Neighbor raw lags,LPR,vsby,3.0,0.00022459884573937033
+LPR_vsby_lag6,Neighbor raw lags,LPR,vsby,6.0,0.000464896074080839
+FDY_tmpf_lag1,Neighbor raw lags,FDY,tmpf,1.0,0.003633380182896592
+FDY_tmpf_lag2,Neighbor raw lags,FDY,tmpf,2.0,0.000143123678101421
+FDY_tmpf_lag3,Neighbor raw lags,FDY,tmpf,3.0,0.00349283814657658
+FDY_tmpf_lag6,Neighbor raw lags,FDY,tmpf,6.0,0.0006417743202351584
+FDY_dwpf_lag1,Neighbor raw lags,FDY,dwpf,1.0,0.0024684444253523026
+FDY_dwpf_lag2,Neighbor raw lags,FDY,dwpf,2.0,0.0015245811745578086
+FDY_dwpf_lag3,Neighbor raw lags,FDY,dwpf,3.0,0.00233311936579044
+FDY_dwpf_lag6,Neighbor raw lags,FDY,dwpf,6.0,0.0015770716704537951
+FDY_u_lag1,Neighbor raw lags,FDY,u,1.0,0.00428045566234122
+FDY_u_lag2,Neighbor raw lags,FDY,u,2.0,0.0010119331751677243
+FDY_u_lag3,Neighbor raw lags,FDY,u,3.0,0.004955260161174225
+FDY_u_lag6,Neighbor raw lags,FDY,u,6.0,0.002658873721859624
+FDY_v_lag1,Neighbor raw lags,FDY,v,1.0,0.003208006137990393
+FDY_v_lag2,Neighbor raw lags,FDY,v,2.0,0.0010626662363143074
+FDY_v_lag3,Neighbor raw lags,FDY,v,3.0,0.003931008283531679
+FDY_v_lag6,Neighbor raw lags,FDY,v,6.0,0.000685419076212613
+FDY_mslp_lag1,Neighbor raw lags,FDY,mslp,1.0,0.0025784400605670848
+FDY_mslp_lag2,Neighbor raw lags,FDY,mslp,2.0,0.0011104472700057745
+FDY_mslp_lag3,Neighbor raw lags,FDY,mslp,3.0,0.000220035009943975
+FDY_mslp_lag6,Neighbor raw lags,FDY,mslp,6.0,0.0004137460421584548
+FDY_p01i_lag1,Neighbor raw lags,FDY,p01i,1.0,0.00045072727809173816
+FDY_p01i_lag2,Neighbor raw lags,FDY,p01i,2.0,0.00016614914470635138
+FDY_p01i_lag3,Neighbor raw lags,FDY,p01i,3.0,4.0633738939173e-05
+FDY_p01i_lag6,Neighbor raw lags,FDY,p01i,6.0,0.0037812533414393118
+FDY_wx_snow_lag1,Neighbor raw lags,FDY,wx_snow,1.0,0.0002635454088607428
+FDY_wx_snow_lag2,Neighbor raw lags,FDY,wx_snow,2.0,0.00010650474794804743
+FDY_wx_snow_lag3,Neighbor raw lags,FDY,wx_snow,3.0,0.00010408032248473861
+FDY_wx_snow_lag6,Neighbor raw lags,FDY,wx_snow,6.0,0.0
+FDY_vsby_lag1,Neighbor raw lags,FDY,vsby,1.0,0.0003720417726274574
+FDY_vsby_lag2,Neighbor raw lags,FDY,vsby,2.0,0.0011131352856961387
+FDY_vsby_lag3,Neighbor raw lags,FDY,vsby,3.0,0.0018100818194556338
+FDY_vsby_lag6,Neighbor raw lags,FDY,vsby,6.0,0.004904005874846972
+CLE_tmpf_lag1,Neighbor raw lags,CLE,tmpf,1.0,0.004137742786707624
+CLE_tmpf_lag2,Neighbor raw lags,CLE,tmpf,2.0,0.0005154855623708564
+CLE_tmpf_lag3,Neighbor raw lags,CLE,tmpf,3.0,0.0011597075348221632
+CLE_tmpf_lag6,Neighbor raw lags,CLE,tmpf,6.0,0.001022682191564548
+CLE_dwpf_lag1,Neighbor raw lags,CLE,dwpf,1.0,0.0032583297224254536
+CLE_dwpf_lag2,Neighbor raw lags,CLE,dwpf,2.0,0.002224391748847483
+CLE_dwpf_lag3,Neighbor raw lags,CLE,dwpf,3.0,0.0017230032182815724
+CLE_dwpf_lag6,Neighbor raw lags,CLE,dwpf,6.0,0.0030589172178767192
+CLE_u_lag1,Neighbor raw lags,CLE,u,1.0,0.00630237166309065
+CLE_u_lag2,Neighbor raw lags,CLE,u,2.0,0.00218525935065845
+CLE_u_lag3,Neighbor raw lags,CLE,u,3.0,0.004594482922759563
+CLE_u_lag6,Neighbor raw lags,CLE,u,6.0,0.0005771045756724168
+CLE_v_lag1,Neighbor raw lags,CLE,v,1.0,0.0011782557897868642
+CLE_v_lag2,Neighbor raw lags,CLE,v,2.0,0.0022691242875144202
+CLE_v_lag3,Neighbor raw lags,CLE,v,3.0,0.003810336629136483
+CLE_v_lag6,Neighbor raw lags,CLE,v,6.0,0.0027941991637891457
+CLE_mslp_lag1,Neighbor raw lags,CLE,mslp,1.0,0.0023126300335211116
+CLE_mslp_lag2,Neighbor raw lags,CLE,mslp,2.0,0.0008057475804927664
+CLE_mslp_lag3,Neighbor raw lags,CLE,mslp,3.0,0.0016007857236144285
+CLE_mslp_lag6,Neighbor raw lags,CLE,mslp,6.0,0.000264294922113094
+CLE_p01i_lag1,Neighbor raw lags,CLE,p01i,1.0,0.0008777161186069671
+CLE_p01i_lag2,Neighbor raw lags,CLE,p01i,2.0,0.0
+CLE_p01i_lag3,Neighbor raw lags,CLE,p01i,3.0,0.00011489472015598598
+CLE_p01i_lag6,Neighbor raw lags,CLE,p01i,6.0,0.0006102157004592318
+CLE_wx_snow_lag1,Neighbor raw lags,CLE,wx_snow,1.0,0.0
+CLE_wx_snow_lag2,Neighbor raw lags,CLE,wx_snow,2.0,0.0
+CLE_wx_snow_lag3,Neighbor raw lags,CLE,wx_snow,3.0,0.0
+CLE_wx_snow_lag6,Neighbor raw lags,CLE,wx_snow,6.0,0.0
+CLE_vsby_lag1,Neighbor raw lags,CLE,vsby,1.0,0.0008352487738209008
+CLE_vsby_lag2,Neighbor raw lags,CLE,vsby,2.0,0.00023814327684317592
+CLE_vsby_lag3,Neighbor raw lags,CLE,vsby,3.0,0.0006656982097037513
+CLE_vsby_lag6,Neighbor raw lags,CLE,vsby,6.0,0.0005063186823794973
+MBS_tmpf_lag1,Neighbor raw lags,MBS,tmpf,1.0,0.017147929666632082
+MBS_tmpf_lag2,Neighbor raw lags,MBS,tmpf,2.0,0.0008367092830358746
+MBS_tmpf_lag3,Neighbor raw lags,MBS,tmpf,3.0,0.005879323002829485
+MBS_tmpf_lag6,Neighbor raw lags,MBS,tmpf,6.0,0.007318878660587484
+MBS_dwpf_lag1,Neighbor raw lags,MBS,dwpf,1.0,0.02601821253984857
+MBS_dwpf_lag2,Neighbor raw lags,MBS,dwpf,2.0,0.013442673570330481
+MBS_dwpf_lag3,Neighbor raw lags,MBS,dwpf,3.0,0.03160815083356234
+MBS_dwpf_lag6,Neighbor raw lags,MBS,dwpf,6.0,0.0014032598119944851
+MBS_u_lag1,Neighbor raw lags,MBS,u,1.0,0.006324427690505286
+MBS_u_lag2,Neighbor raw lags,MBS,u,2.0,0.008739658451207392
+MBS_u_lag3,Neighbor raw lags,MBS,u,3.0,0.001842700307650514
+MBS_u_lag6,Neighbor raw lags,MBS,u,6.0,0.003547117391960387
+MBS_v_lag1,Neighbor raw lags,MBS,v,1.0,0.01875119641413392
+MBS_v_lag2,Neighbor raw lags,MBS,v,2.0,0.0025188453369132803
+MBS_v_lag3,Neighbor raw lags,MBS,v,3.0,0.007233060415418092
+MBS_v_lag6,Neighbor raw lags,MBS,v,6.0,0.005253829485128277
+MBS_mslp_lag1,Neighbor raw lags,MBS,mslp,1.0,0.0022764805656237137
+MBS_mslp_lag2,Neighbor raw lags,MBS,mslp,2.0,0.0016835971483244315
+MBS_mslp_lag3,Neighbor raw lags,MBS,mslp,3.0,0.0017910430963869745
+MBS_mslp_lag6,Neighbor raw lags,MBS,mslp,6.0,0.0021802418806942817
+MBS_p01i_lag1,Neighbor raw lags,MBS,p01i,1.0,0.0005085077881430766
+MBS_p01i_lag2,Neighbor raw lags,MBS,p01i,2.0,0.001632110625233963
+MBS_p01i_lag3,Neighbor raw lags,MBS,p01i,3.0,0.0001286022762172122
+MBS_p01i_lag6,Neighbor raw lags,MBS,p01i,6.0,0.0
+MBS_wx_snow_lag1,Neighbor raw lags,MBS,wx_snow,1.0,0.0022222470953559715
+MBS_wx_snow_lag2,Neighbor raw lags,MBS,wx_snow,2.0,0.00028670939779826423
+MBS_wx_snow_lag3,Neighbor raw lags,MBS,wx_snow,3.0,0.00034710401853333176
+MBS_wx_snow_lag6,Neighbor raw lags,MBS,wx_snow,6.0,0.0
+MBS_vsby_lag1,Neighbor raw lags,MBS,vsby,1.0,0.0010144445472998038
+MBS_vsby_lag2,Neighbor raw lags,MBS,vsby,2.0,0.0005088298899978622
+MBS_vsby_lag3,Neighbor raw lags,MBS,vsby,3.0,0.002825885045343054
+MBS_vsby_lag6,Neighbor raw lags,MBS,vsby,6.0,0.0012067002966928801
+BKL_tmpf_lag1,Neighbor raw lags,BKL,tmpf,1.0,0.002449216014461916
+BKL_tmpf_lag2,Neighbor raw lags,BKL,tmpf,2.0,0.004937315888936601
+BKL_tmpf_lag3,Neighbor raw lags,BKL,tmpf,3.0,0.009775107218631549
+BKL_tmpf_lag6,Neighbor raw lags,BKL,tmpf,6.0,0.00482399300550686
+BKL_dwpf_lag1,Neighbor raw lags,BKL,dwpf,1.0,0.0017956214027404062
+BKL_dwpf_lag2,Neighbor raw lags,BKL,dwpf,2.0,0.0009843223141000263
+BKL_dwpf_lag3,Neighbor raw lags,BKL,dwpf,3.0,0.0011146141517840932
+BKL_dwpf_lag6,Neighbor raw lags,BKL,dwpf,6.0,0.00032424252534752143
+BKL_u_lag1,Neighbor raw lags,BKL,u,1.0,0.0072965986179643096
+BKL_u_lag2,Neighbor raw lags,BKL,u,2.0,0.0006140746903324712
+BKL_u_lag3,Neighbor raw lags,BKL,u,3.0,0.002589133871345248
+BKL_u_lag6,Neighbor raw lags,BKL,u,6.0,0.0014366027411093375
+BKL_v_lag1,Neighbor raw lags,BKL,v,1.0,0.0026914280737952907
+BKL_v_lag2,Neighbor raw lags,BKL,v,2.0,0.0023319573746073755
+BKL_v_lag3,Neighbor raw lags,BKL,v,3.0,0.002264711888170649
+BKL_v_lag6,Neighbor raw lags,BKL,v,6.0,0.0031283717983934855
+BKL_mslp_lag1,Neighbor raw lags,BKL,mslp,1.0,0.000887063076648422
+BKL_mslp_lag2,Neighbor raw lags,BKL,mslp,2.0,0.0023039742866442676
+BKL_mslp_lag3,Neighbor raw lags,BKL,mslp,3.0,0.0025724674002809726
+BKL_mslp_lag6,Neighbor raw lags,BKL,mslp,6.0,0.0003394823371403697
+BKL_p01i_lag1,Neighbor raw lags,BKL,p01i,1.0,7.09435063804066e-05
+BKL_p01i_lag2,Neighbor raw lags,BKL,p01i,2.0,0.00036520516243791654
+BKL_p01i_lag3,Neighbor raw lags,BKL,p01i,3.0,9.08880668731388e-05
+BKL_p01i_lag6,Neighbor raw lags,BKL,p01i,6.0,0.0
+BKL_wx_snow_lag1,Neighbor raw lags,BKL,wx_snow,1.0,0.0
+BKL_wx_snow_lag2,Neighbor raw lags,BKL,wx_snow,2.0,0.0
+BKL_wx_snow_lag3,Neighbor raw lags,BKL,wx_snow,3.0,0.000141169420091299
+BKL_wx_snow_lag6,Neighbor raw lags,BKL,wx_snow,6.0,6.778061590503042e-05
+BKL_vsby_lag1,Neighbor raw lags,BKL,vsby,1.0,0.0001207059304455379
+BKL_vsby_lag2,Neighbor raw lags,BKL,vsby,2.0,0.0009806695944826994
+BKL_vsby_lag3,Neighbor raw lags,BKL,vsby,3.0,0.0013419004228431392
+BKL_vsby_lag6,Neighbor raw lags,BKL,vsby,6.0,0.0007489430939938058
+BTL_tmpf_lag1,Neighbor raw lags,BTL,tmpf,1.0,0.10351082831210945
+BTL_tmpf_lag2,Neighbor raw lags,BTL,tmpf,2.0,0.020044109289679632
+BTL_tmpf_lag3,Neighbor raw lags,BTL,tmpf,3.0,0.001248560499501713
+BTL_tmpf_lag6,Neighbor raw lags,BTL,tmpf,6.0,0.003815400190894124
+BTL_dwpf_lag1,Neighbor raw lags,BTL,dwpf,1.0,0.03470696638888339
+BTL_dwpf_lag2,Neighbor raw lags,BTL,dwpf,2.0,0.04357064333078061
+BTL_dwpf_lag3,Neighbor raw lags,BTL,dwpf,3.0,0.001371049280144566
+BTL_dwpf_lag6,Neighbor raw lags,BTL,dwpf,6.0,0.007482056934086761
+BTL_u_lag1,Neighbor raw lags,BTL,u,1.0,0.001503008007511481
+BTL_u_lag2,Neighbor raw lags,BTL,u,2.0,0.00401491673502732
+BTL_u_lag3,Neighbor raw lags,BTL,u,3.0,0.002143967377959506
+BTL_u_lag6,Neighbor raw lags,BTL,u,6.0,0.003602888640986909
+BTL_v_lag1,Neighbor raw lags,BTL,v,1.0,0.0034508592421825667
+BTL_v_lag2,Neighbor raw lags,BTL,v,2.0,0.003707249017326824
+BTL_v_lag3,Neighbor raw lags,BTL,v,3.0,0.0012986473154497356
+BTL_v_lag6,Neighbor raw lags,BTL,v,6.0,0.0024054449274336248
+BTL_mslp_lag1,Neighbor raw lags,BTL,mslp,1.0,0.003068241006189043
+BTL_mslp_lag2,Neighbor raw lags,BTL,mslp,2.0,0.0032208349914558732
+BTL_mslp_lag3,Neighbor raw lags,BTL,mslp,3.0,0.002527182616260581
+BTL_mslp_lag6,Neighbor raw lags,BTL,mslp,6.0,0.00112242569353458
+BTL_p01i_lag1,Neighbor raw lags,BTL,p01i,1.0,0.0
+BTL_p01i_lag2,Neighbor raw lags,BTL,p01i,2.0,0.001575984521317092
+BTL_p01i_lag3,Neighbor raw lags,BTL,p01i,3.0,0.0006105428945018906
+BTL_p01i_lag6,Neighbor raw lags,BTL,p01i,6.0,9.436809887477373e-05
+BTL_wx_snow_lag1,Neighbor raw lags,BTL,wx_snow,1.0,0.01528063170286568
+BTL_wx_snow_lag2,Neighbor raw lags,BTL,wx_snow,2.0,0.0004081157114733739
+BTL_wx_snow_lag3,Neighbor raw lags,BTL,wx_snow,3.0,0.0
+BTL_wx_snow_lag6,Neighbor raw lags,BTL,wx_snow,6.0,0.0
+BTL_vsby_lag1,Neighbor raw lags,BTL,vsby,1.0,0.013494401628313788
+BTL_vsby_lag2,Neighbor raw lags,BTL,vsby,2.0,0.0007976512296682345
+BTL_vsby_lag3,Neighbor raw lags,BTL,vsby,3.0,0.0007563486225514994
+BTL_vsby_lag6,Neighbor raw lags,BTL,vsby,6.0,0.000874093387574688
+MFD_tmpf_lag1,Neighbor raw lags,MFD,tmpf,1.0,0.0022871809187049864
+MFD_tmpf_lag2,Neighbor raw lags,MFD,tmpf,2.0,0.0010044301244057357
+MFD_tmpf_lag3,Neighbor raw lags,MFD,tmpf,3.0,0.0
+MFD_tmpf_lag6,Neighbor raw lags,MFD,tmpf,6.0,0.0
+MFD_dwpf_lag1,Neighbor raw lags,MFD,dwpf,1.0,0.001350572001372199
+MFD_dwpf_lag2,Neighbor raw lags,MFD,dwpf,2.0,0.0010640925588493444
+MFD_dwpf_lag3,Neighbor raw lags,MFD,dwpf,3.0,0.0019573217528696413
+MFD_dwpf_lag6,Neighbor raw lags,MFD,dwpf,6.0,0.00043194989854048317
+MFD_u_lag1,Neighbor raw lags,MFD,u,1.0,0.0022773275485004443
+MFD_u_lag2,Neighbor raw lags,MFD,u,2.0,0.002336218167972796
+MFD_u_lag3,Neighbor raw lags,MFD,u,3.0,0.00553256197297831
+MFD_u_lag6,Neighbor raw lags,MFD,u,6.0,0.0004276696758887473
+MFD_v_lag1,Neighbor raw lags,MFD,v,1.0,0.0046289378984712155
+MFD_v_lag2,Neighbor raw lags,MFD,v,2.0,0.0037222432965303815
+MFD_v_lag3,Neighbor raw lags,MFD,v,3.0,0.0028706453337100646
+MFD_v_lag6,Neighbor raw lags,MFD,v,6.0,0.0011662286257805112
+MFD_mslp_lag1,Neighbor raw lags,MFD,mslp,1.0,0.006982780289218806
+MFD_mslp_lag2,Neighbor raw lags,MFD,mslp,2.0,0.000748831559877447
+MFD_mslp_lag3,Neighbor raw lags,MFD,mslp,3.0,0.00029154195785465614
+MFD_mslp_lag6,Neighbor raw lags,MFD,mslp,6.0,0.00030265237503278357
+MFD_p01i_lag1,Neighbor raw lags,MFD,p01i,1.0,0.0008769325965793316
+MFD_p01i_lag2,Neighbor raw lags,MFD,p01i,2.0,6.150162563346208e-05
+MFD_p01i_lag3,Neighbor raw lags,MFD,p01i,3.0,0.0
+MFD_p01i_lag6,Neighbor raw lags,MFD,p01i,6.0,0.0004321625569925275
+MFD_wx_snow_lag1,Neighbor raw lags,MFD,wx_snow,1.0,0.0
+MFD_wx_snow_lag2,Neighbor raw lags,MFD,wx_snow,2.0,0.0
+MFD_wx_snow_lag3,Neighbor raw lags,MFD,wx_snow,3.0,0.0
+MFD_wx_snow_lag6,Neighbor raw lags,MFD,wx_snow,6.0,0.0
+MFD_vsby_lag1,Neighbor raw lags,MFD,vsby,1.0,9.111650641229564e-05
+MFD_vsby_lag2,Neighbor raw lags,MFD,vsby,2.0,0.0015939198592257757
+MFD_vsby_lag3,Neighbor raw lags,MFD,vsby,3.0,0.0008085032205779865
+MFD_vsby_lag6,Neighbor raw lags,MFD,vsby,6.0,0.0011462425682922507
+MNN_tmpf_lag1,Neighbor raw lags,MNN,tmpf,1.0,0.005039230586609396
+MNN_tmpf_lag2,Neighbor raw lags,MNN,tmpf,2.0,0.001723719925948705
+MNN_tmpf_lag3,Neighbor raw lags,MNN,tmpf,3.0,0.0007768913787774653
+MNN_tmpf_lag6,Neighbor raw lags,MNN,tmpf,6.0,0.0002766251671553328
+MNN_dwpf_lag1,Neighbor raw lags,MNN,dwpf,1.0,0.0011531214918220677
+MNN_dwpf_lag2,Neighbor raw lags,MNN,dwpf,2.0,0.0014879031849707985
+MNN_dwpf_lag3,Neighbor raw lags,MNN,dwpf,3.0,0.0009500271186181061
+MNN_dwpf_lag6,Neighbor raw lags,MNN,dwpf,6.0,0.003973937225171198
+MNN_u_lag1,Neighbor raw lags,MNN,u,1.0,0.0019837257544097005
+MNN_u_lag2,Neighbor raw lags,MNN,u,2.0,0.004333352862425502
+MNN_u_lag3,Neighbor raw lags,MNN,u,3.0,0.0031664470392372547
+MNN_u_lag6,Neighbor raw lags,MNN,u,6.0,0.0012095156675754491
+MNN_v_lag1,Neighbor raw lags,MNN,v,1.0,0.0025920796298988945
+MNN_v_lag2,Neighbor raw lags,MNN,v,2.0,0.0017600437979330798
+MNN_v_lag3,Neighbor raw lags,MNN,v,3.0,0.002689294755565654
+MNN_v_lag6,Neighbor raw lags,MNN,v,6.0,0.0014397178857488277
+MNN_mslp_lag1,Neighbor raw lags,MNN,mslp,1.0,0.004047027076063341
+MNN_mslp_lag2,Neighbor raw lags,MNN,mslp,2.0,0.0028861161437802353
+MNN_mslp_lag3,Neighbor raw lags,MNN,mslp,3.0,0.0004787706289764624
+MNN_mslp_lag6,Neighbor raw lags,MNN,mslp,6.0,0.0012540198582953223
+MNN_p01i_lag1,Neighbor raw lags,MNN,p01i,1.0,0.004389961348601244
+MNN_p01i_lag2,Neighbor raw lags,MNN,p01i,2.0,0.0
+MNN_p01i_lag3,Neighbor raw lags,MNN,p01i,3.0,0.0
+MNN_p01i_lag6,Neighbor raw lags,MNN,p01i,6.0,0.0
+MNN_wx_snow_lag1,Neighbor raw lags,MNN,wx_snow,1.0,3.3470157373474166e-05
+MNN_wx_snow_lag2,Neighbor raw lags,MNN,wx_snow,2.0,0.0
+MNN_wx_snow_lag3,Neighbor raw lags,MNN,wx_snow,3.0,0.000709018640537507
+MNN_wx_snow_lag6,Neighbor raw lags,MNN,wx_snow,6.0,0.0
+MNN_vsby_lag1,Neighbor raw lags,MNN,vsby,1.0,0.0019304266314790705
+MNN_vsby_lag2,Neighbor raw lags,MNN,vsby,2.0,0.0010082858219697783
+MNN_vsby_lag3,Neighbor raw lags,MNN,vsby,3.0,0.0012027321046964412
+MNN_vsby_lag6,Neighbor raw lags,MNN,vsby,6.0,0.0005970194611101287
+AZO_tmpf_lag1,Neighbor raw lags,AZO,tmpf,1.0,0.16074269191235988
+AZO_tmpf_lag2,Neighbor raw lags,AZO,tmpf,2.0,0.0024047312736959242
+AZO_tmpf_lag3,Neighbor raw lags,AZO,tmpf,3.0,0.002433665939427998
+AZO_tmpf_lag6,Neighbor raw lags,AZO,tmpf,6.0,0.0025822513420439806
+AZO_dwpf_lag1,Neighbor raw lags,AZO,dwpf,1.0,0.02169481202158715
+AZO_dwpf_lag2,Neighbor raw lags,AZO,dwpf,2.0,0.00400668695350653
+AZO_dwpf_lag3,Neighbor raw lags,AZO,dwpf,3.0,0.003032192532355825
+AZO_dwpf_lag6,Neighbor raw lags,AZO,dwpf,6.0,0.0008856671821978958
+AZO_u_lag1,Neighbor raw lags,AZO,u,1.0,0.0034740683667325626
+AZO_u_lag2,Neighbor raw lags,AZO,u,2.0,0.0009211833974890307
+AZO_u_lag3,Neighbor raw lags,AZO,u,3.0,0.005314253704286835
+AZO_u_lag6,Neighbor raw lags,AZO,u,6.0,0.003374994289034445
+AZO_v_lag1,Neighbor raw lags,AZO,v,1.0,0.0058567906078460415
+AZO_v_lag2,Neighbor raw lags,AZO,v,2.0,0.0028317332665944695
+AZO_v_lag3,Neighbor raw lags,AZO,v,3.0,0.002799427348377185
+AZO_v_lag6,Neighbor raw lags,AZO,v,6.0,0.0012038331882015863
+AZO_mslp_lag1,Neighbor raw lags,AZO,mslp,1.0,0.005723781653205549
+AZO_mslp_lag2,Neighbor raw lags,AZO,mslp,2.0,0.004697633306248179
+AZO_mslp_lag3,Neighbor raw lags,AZO,mslp,3.0,0.001850473155433924
+AZO_mslp_lag6,Neighbor raw lags,AZO,mslp,6.0,0.0017006551489401548
+AZO_p01i_lag1,Neighbor raw lags,AZO,p01i,1.0,0.0
+AZO_p01i_lag2,Neighbor raw lags,AZO,p01i,2.0,0.0
+AZO_p01i_lag3,Neighbor raw lags,AZO,p01i,3.0,0.0004043445995131667
+AZO_p01i_lag6,Neighbor raw lags,AZO,p01i,6.0,0.0
+AZO_wx_snow_lag1,Neighbor raw lags,AZO,wx_snow,1.0,0.003587735837634571
+AZO_wx_snow_lag2,Neighbor raw lags,AZO,wx_snow,2.0,0.00024650997820205273
+AZO_wx_snow_lag3,Neighbor raw lags,AZO,wx_snow,3.0,0.00012499148901447314
+AZO_wx_snow_lag6,Neighbor raw lags,AZO,wx_snow,6.0,0.0
+AZO_vsby_lag1,Neighbor raw lags,AZO,vsby,1.0,0.005113577834183005
+AZO_vsby_lag2,Neighbor raw lags,AZO,vsby,2.0,0.0011479863793111783
+AZO_vsby_lag3,Neighbor raw lags,AZO,vsby,3.0,0.0008328882091241244
+AZO_vsby_lag6,Neighbor raw lags,AZO,vsby,6.0,0.0015034268610586857
+BJJ_tmpf_lag1,Neighbor raw lags,BJJ,tmpf,1.0,0.008813643648939364
+BJJ_tmpf_lag2,Neighbor raw lags,BJJ,tmpf,2.0,0.008977714629819744
+BJJ_tmpf_lag3,Neighbor raw lags,BJJ,tmpf,3.0,0.002032720695694316
+BJJ_tmpf_lag6,Neighbor raw lags,BJJ,tmpf,6.0,0.0030530830942395466
+BJJ_dwpf_lag1,Neighbor raw lags,BJJ,dwpf,1.0,0.0026763468579448714
+BJJ_dwpf_lag2,Neighbor raw lags,BJJ,dwpf,2.0,0.006209724011976203
+BJJ_dwpf_lag3,Neighbor raw lags,BJJ,dwpf,3.0,0.0
+BJJ_dwpf_lag6,Neighbor raw lags,BJJ,dwpf,6.0,0.002109789690403933
+BJJ_u_lag1,Neighbor raw lags,BJJ,u,1.0,0.007158584276894516
+BJJ_u_lag2,Neighbor raw lags,BJJ,u,2.0,0.002986966440677712
+BJJ_u_lag3,Neighbor raw lags,BJJ,u,3.0,0.0009956715308783559
+BJJ_u_lag6,Neighbor raw lags,BJJ,u,6.0,0.0015654562055674582
+BJJ_v_lag1,Neighbor raw lags,BJJ,v,1.0,0.0037941657327116175
+BJJ_v_lag2,Neighbor raw lags,BJJ,v,2.0,0.004291136825626996
+BJJ_v_lag3,Neighbor raw lags,BJJ,v,3.0,0.0024765766364681584
+BJJ_v_lag6,Neighbor raw lags,BJJ,v,6.0,0.003986504682320941
+BJJ_mslp_lag1,Neighbor raw lags,BJJ,mslp,1.0,0.0008107412271432116
+BJJ_mslp_lag2,Neighbor raw lags,BJJ,mslp,2.0,0.0043284573713217615
+BJJ_mslp_lag3,Neighbor raw lags,BJJ,mslp,3.0,0.000522454624993395
+BJJ_mslp_lag6,Neighbor raw lags,BJJ,mslp,6.0,0.0009721339980596139
+BJJ_p01i_lag1,Neighbor raw lags,BJJ,p01i,1.0,0.0
+BJJ_p01i_lag2,Neighbor raw lags,BJJ,p01i,2.0,0.0
+BJJ_p01i_lag3,Neighbor raw lags,BJJ,p01i,3.0,0.0012324324873934306
+BJJ_p01i_lag6,Neighbor raw lags,BJJ,p01i,6.0,0.0012254801752992809
+BJJ_wx_snow_lag1,Neighbor raw lags,BJJ,wx_snow,1.0,0.0
+BJJ_wx_snow_lag2,Neighbor raw lags,BJJ,wx_snow,2.0,0.0
+BJJ_wx_snow_lag3,Neighbor raw lags,BJJ,wx_snow,3.0,0.0
+BJJ_wx_snow_lag6,Neighbor raw lags,BJJ,wx_snow,6.0,0.0
+BJJ_vsby_lag1,Neighbor raw lags,BJJ,vsby,1.0,0.00014496253788878557
+BJJ_vsby_lag2,Neighbor raw lags,BJJ,vsby,2.0,0.0004647025920908706
+BJJ_vsby_lag3,Neighbor raw lags,BJJ,vsby,3.0,0.0016833264820670492
+BJJ_vsby_lag6,Neighbor raw lags,BJJ,vsby,6.0,0.0023714471865539147
+GRR_tmpf_lag1,Neighbor raw lags,GRR,tmpf,1.0,0.0038724402954281446
+GRR_tmpf_lag2,Neighbor raw lags,GRR,tmpf,2.0,0.0007599314261526857
+GRR_tmpf_lag3,Neighbor raw lags,GRR,tmpf,3.0,0.0006687418375406902
+GRR_tmpf_lag6,Neighbor raw lags,GRR,tmpf,6.0,0.005901457568489445
+GRR_dwpf_lag1,Neighbor raw lags,GRR,dwpf,1.0,0.0012867150410126376
+GRR_dwpf_lag2,Neighbor raw lags,GRR,dwpf,2.0,0.0016093049867566276
+GRR_dwpf_lag3,Neighbor raw lags,GRR,dwpf,3.0,0.0016387822440744341
+GRR_dwpf_lag6,Neighbor raw lags,GRR,dwpf,6.0,0.0029629319948046608
+GRR_u_lag1,Neighbor raw lags,GRR,u,1.0,0.0010800009292317825
+GRR_u_lag2,Neighbor raw lags,GRR,u,2.0,0.002821388508185753
+GRR_u_lag3,Neighbor raw lags,GRR,u,3.0,0.004278261870396407
+GRR_u_lag6,Neighbor raw lags,GRR,u,6.0,0.004673958507836839
+GRR_v_lag1,Neighbor raw lags,GRR,v,1.0,0.012364334568750779
+GRR_v_lag2,Neighbor raw lags,GRR,v,2.0,0.015087398681737843
+GRR_v_lag3,Neighbor raw lags,GRR,v,3.0,0.002913952298854929
+GRR_v_lag6,Neighbor raw lags,GRR,v,6.0,0.0018265581482498107
+GRR_mslp_lag1,Neighbor raw lags,GRR,mslp,1.0,0.0008751877471692397
+GRR_mslp_lag2,Neighbor raw lags,GRR,mslp,2.0,0.0018177527805684132
+GRR_mslp_lag3,Neighbor raw lags,GRR,mslp,3.0,0.0015909573349178158
+GRR_mslp_lag6,Neighbor raw lags,GRR,mslp,6.0,0.0015387806101243749
+GRR_p01i_lag1,Neighbor raw lags,GRR,p01i,1.0,0.0
+GRR_p01i_lag2,Neighbor raw lags,GRR,p01i,2.0,0.0002283774451012698
+GRR_p01i_lag3,Neighbor raw lags,GRR,p01i,3.0,7.385932687676514e-05
+GRR_p01i_lag6,Neighbor raw lags,GRR,p01i,6.0,0.0
+GRR_wx_snow_lag1,Neighbor raw lags,GRR,wx_snow,1.0,0.01712621237916967
+GRR_wx_snow_lag2,Neighbor raw lags,GRR,wx_snow,2.0,0.00827408190331725
+GRR_wx_snow_lag3,Neighbor raw lags,GRR,wx_snow,3.0,0.00015347751186436495
+GRR_wx_snow_lag6,Neighbor raw lags,GRR,wx_snow,6.0,0.0
+GRR_vsby_lag1,Neighbor raw lags,GRR,vsby,1.0,0.00622898916770574
+GRR_vsby_lag2,Neighbor raw lags,GRR,vsby,2.0,0.0020057034787639306
+GRR_vsby_lag3,Neighbor raw lags,GRR,vsby,3.0,0.0014351323758036245
+GRR_vsby_lag6,Neighbor raw lags,GRR,vsby,6.0,0.0023321491594761297
+AKR_tmpf_lag1,Neighbor raw lags,AKR,tmpf,1.0,0.001397413694725638
+AKR_tmpf_lag2,Neighbor raw lags,AKR,tmpf,2.0,0.00289994021999683
+AKR_tmpf_lag3,Neighbor raw lags,AKR,tmpf,3.0,0.004654576444139467
+AKR_tmpf_lag6,Neighbor raw lags,AKR,tmpf,6.0,0.0016210967280076193
+AKR_dwpf_lag1,Neighbor raw lags,AKR,dwpf,1.0,0.005776577620908178
+AKR_dwpf_lag2,Neighbor raw lags,AKR,dwpf,2.0,0.0002763601319844268
+AKR_dwpf_lag3,Neighbor raw lags,AKR,dwpf,3.0,0.0017432702651486466
+AKR_dwpf_lag6,Neighbor raw lags,AKR,dwpf,6.0,0.0030330910296196708
+AKR_u_lag1,Neighbor raw lags,AKR,u,1.0,0.006838036457103408
+AKR_u_lag2,Neighbor raw lags,AKR,u,2.0,0.0038378350888544754
+AKR_u_lag3,Neighbor raw lags,AKR,u,3.0,0.0038289477143875175
+AKR_u_lag6,Neighbor raw lags,AKR,u,6.0,0.0020843730925699604
+AKR_v_lag1,Neighbor raw lags,AKR,v,1.0,0.00365558906144674
+AKR_v_lag2,Neighbor raw lags,AKR,v,2.0,0.00845620484757888
+AKR_v_lag3,Neighbor raw lags,AKR,v,3.0,0.011526741413475771
+AKR_v_lag6,Neighbor raw lags,AKR,v,6.0,0.003832332884997783
+AKR_mslp_lag1,Neighbor raw lags,AKR,mslp,1.0,0.005163186819599801
+AKR_mslp_lag2,Neighbor raw lags,AKR,mslp,2.0,0.0038560683542922425
+AKR_mslp_lag3,Neighbor raw lags,AKR,mslp,3.0,0.0008780919254458238
+AKR_mslp_lag6,Neighbor raw lags,AKR,mslp,6.0,0.001704951264483348
+AKR_p01i_lag1,Neighbor raw lags,AKR,p01i,1.0,0.0006222987809864368
+AKR_p01i_lag2,Neighbor raw lags,AKR,p01i,2.0,8.169420608333382e-05
+AKR_p01i_lag3,Neighbor raw lags,AKR,p01i,3.0,0.0
+AKR_p01i_lag6,Neighbor raw lags,AKR,p01i,6.0,6.26846097923737e-05
+AKR_wx_snow_lag1,Neighbor raw lags,AKR,wx_snow,1.0,0.0
+AKR_wx_snow_lag2,Neighbor raw lags,AKR,wx_snow,2.0,0.00011545792625831799
+AKR_wx_snow_lag3,Neighbor raw lags,AKR,wx_snow,3.0,0.0
+AKR_wx_snow_lag6,Neighbor raw lags,AKR,wx_snow,6.0,0.0
+AKR_vsby_lag1,Neighbor raw lags,AKR,vsby,1.0,0.0002877318757340694
+AKR_vsby_lag2,Neighbor raw lags,AKR,vsby,2.0,0.001075145645272004
+AKR_vsby_lag3,Neighbor raw lags,AKR,vsby,3.0,0.001322491090684836
+AKR_vsby_lag6,Neighbor raw lags,AKR,vsby,6.0,0.0010894256792919551
+FWA_tmpf_lag1,Neighbor raw lags,FWA,tmpf,1.0,0.018103999703863827
+FWA_tmpf_lag2,Neighbor raw lags,FWA,tmpf,2.0,0.0008976401933976714
+FWA_tmpf_lag3,Neighbor raw lags,FWA,tmpf,3.0,0.000312841186112693
+FWA_tmpf_lag6,Neighbor raw lags,FWA,tmpf,6.0,0.0010536367816973825
+FWA_dwpf_lag1,Neighbor raw lags,FWA,dwpf,1.0,0.006985546852473298
+FWA_dwpf_lag2,Neighbor raw lags,FWA,dwpf,2.0,0.0030542588224391903
+FWA_dwpf_lag3,Neighbor raw lags,FWA,dwpf,3.0,0.0008278016150174228
+FWA_dwpf_lag6,Neighbor raw lags,FWA,dwpf,6.0,0.0
+FWA_u_lag1,Neighbor raw lags,FWA,u,1.0,0.005515519992187125
+FWA_u_lag2,Neighbor raw lags,FWA,u,2.0,0.001406974028317934
+FWA_u_lag3,Neighbor raw lags,FWA,u,3.0,0.002059940189392435
+FWA_u_lag6,Neighbor raw lags,FWA,u,6.0,0.0017863151276328257
+FWA_v_lag1,Neighbor raw lags,FWA,v,1.0,0.006462604951367023
+FWA_v_lag2,Neighbor raw lags,FWA,v,2.0,0.005427446641913196
+FWA_v_lag3,Neighbor raw lags,FWA,v,3.0,0.007202273089282484
+FWA_v_lag6,Neighbor raw lags,FWA,v,6.0,0.0023363497089065495
+FWA_mslp_lag1,Neighbor raw lags,FWA,mslp,1.0,0.008162334488597876
+FWA_mslp_lag2,Neighbor raw lags,FWA,mslp,2.0,0.004716222569879361
+FWA_mslp_lag3,Neighbor raw lags,FWA,mslp,3.0,0.0012010746918077063
+FWA_mslp_lag6,Neighbor raw lags,FWA,mslp,6.0,0.002402161538769321
+FWA_p01i_lag1,Neighbor raw lags,FWA,p01i,1.0,0.016755285370992
+FWA_p01i_lag2,Neighbor raw lags,FWA,p01i,2.0,0.0018789657935758574
+FWA_p01i_lag3,Neighbor raw lags,FWA,p01i,3.0,0.0
+FWA_p01i_lag6,Neighbor raw lags,FWA,p01i,6.0,0.0005613899374217668
+FWA_wx_snow_lag1,Neighbor raw lags,FWA,wx_snow,1.0,0.016167954444236663
+FWA_wx_snow_lag2,Neighbor raw lags,FWA,wx_snow,2.0,0.0024293077660095877
+FWA_wx_snow_lag3,Neighbor raw lags,FWA,wx_snow,3.0,0.0
+FWA_wx_snow_lag6,Neighbor raw lags,FWA,wx_snow,6.0,0.00023233120133841578
+FWA_vsby_lag1,Neighbor raw lags,FWA,vsby,1.0,0.004755640865955888
+FWA_vsby_lag2,Neighbor raw lags,FWA,vsby,2.0,0.001316157462800954
+FWA_vsby_lag3,Neighbor raw lags,FWA,vsby,3.0,0.0005103073048316644
+FWA_vsby_lag6,Neighbor raw lags,FWA,vsby,6.0,0.00017883054345770177
+CAK_tmpf_lag1,Neighbor raw lags,CAK,tmpf,1.0,0.0006346189102039893
+CAK_tmpf_lag2,Neighbor raw lags,CAK,tmpf,2.0,0.0003436444032772727
+CAK_tmpf_lag3,Neighbor raw lags,CAK,tmpf,3.0,0.0009199454512815009
+CAK_tmpf_lag6,Neighbor raw lags,CAK,tmpf,6.0,0.0014127729700089805
+CAK_dwpf_lag1,Neighbor raw lags,CAK,dwpf,1.0,0.0014167832091714812
+CAK_dwpf_lag2,Neighbor raw lags,CAK,dwpf,2.0,0.0003110454643201682
+CAK_dwpf_lag3,Neighbor raw lags,CAK,dwpf,3.0,0.002067494724816761
+CAK_dwpf_lag6,Neighbor raw lags,CAK,dwpf,6.0,0.000914580971386402
+CAK_u_lag1,Neighbor raw lags,CAK,u,1.0,0.003499770301436746
+CAK_u_lag2,Neighbor raw lags,CAK,u,2.0,0.0005792956215705061
+CAK_u_lag3,Neighbor raw lags,CAK,u,3.0,0.001982750469821094
+CAK_u_lag6,Neighbor raw lags,CAK,u,6.0,0.005380595663387792
+CAK_v_lag1,Neighbor raw lags,CAK,v,1.0,0.0055759559047442305
+CAK_v_lag2,Neighbor raw lags,CAK,v,2.0,0.01029808358501911
+CAK_v_lag3,Neighbor raw lags,CAK,v,3.0,0.0024670766962284246
+CAK_v_lag6,Neighbor raw lags,CAK,v,6.0,0.003666126566103383
+CAK_mslp_lag1,Neighbor raw lags,CAK,mslp,1.0,0.0004972330951406649
+CAK_mslp_lag2,Neighbor raw lags,CAK,mslp,2.0,0.0010210082264101603
+CAK_mslp_lag3,Neighbor raw lags,CAK,mslp,3.0,0.00015051753052818063
+CAK_mslp_lag6,Neighbor raw lags,CAK,mslp,6.0,0.0005301976881379711
+CAK_p01i_lag1,Neighbor raw lags,CAK,p01i,1.0,7.924805621883479e-05
+CAK_p01i_lag2,Neighbor raw lags,CAK,p01i,2.0,0.0001782427514011054
+CAK_p01i_lag3,Neighbor raw lags,CAK,p01i,3.0,0.0008648265707175633
+CAK_p01i_lag6,Neighbor raw lags,CAK,p01i,6.0,8.460971639845518e-05
+CAK_wx_snow_lag1,Neighbor raw lags,CAK,wx_snow,1.0,0.0
+CAK_wx_snow_lag2,Neighbor raw lags,CAK,wx_snow,2.0,0.0
+CAK_wx_snow_lag3,Neighbor raw lags,CAK,wx_snow,3.0,9.076079434730234e-05
+CAK_wx_snow_lag6,Neighbor raw lags,CAK,wx_snow,6.0,8.018588891585376e-05
+CAK_vsby_lag1,Neighbor raw lags,CAK,vsby,1.0,0.0006101628638167641
+CAK_vsby_lag2,Neighbor raw lags,CAK,vsby,2.0,0.0004300734281060828
+CAK_vsby_lag3,Neighbor raw lags,CAK,vsby,3.0,0.001043854743144531
+CAK_vsby_lag6,Neighbor raw lags,CAK,vsby,6.0,0.0010316966772358604
+HZY_tmpf_lag1,Neighbor raw lags,HZY,tmpf,1.0,0.0005349467959189945
+HZY_tmpf_lag2,Neighbor raw lags,HZY,tmpf,2.0,0.0027102143795584
+HZY_tmpf_lag3,Neighbor raw lags,HZY,tmpf,3.0,0.0030005449803084164
+HZY_tmpf_lag6,Neighbor raw lags,HZY,tmpf,6.0,0.001888169982290889
+HZY_dwpf_lag1,Neighbor raw lags,HZY,dwpf,1.0,0.007976574666651222
+HZY_dwpf_lag2,Neighbor raw lags,HZY,dwpf,2.0,0.00210694827652027
+HZY_dwpf_lag3,Neighbor raw lags,HZY,dwpf,3.0,0.008978794643707884
+HZY_dwpf_lag6,Neighbor raw lags,HZY,dwpf,6.0,0.0003958150773789673
+HZY_u_lag1,Neighbor raw lags,HZY,u,1.0,0.0012252738540172684
+HZY_u_lag2,Neighbor raw lags,HZY,u,2.0,0.0036402114213040576
+HZY_u_lag3,Neighbor raw lags,HZY,u,3.0,0.002690649497615851
+HZY_u_lag6,Neighbor raw lags,HZY,u,6.0,0.0035435231710473814
+HZY_v_lag1,Neighbor raw lags,HZY,v,1.0,0.0028801133973734303
+HZY_v_lag2,Neighbor raw lags,HZY,v,2.0,0.004644545692190212
+HZY_v_lag3,Neighbor raw lags,HZY,v,3.0,0.003508961739205889
+HZY_v_lag6,Neighbor raw lags,HZY,v,6.0,0.0028878472288385733
+HZY_mslp_lag1,Neighbor raw lags,HZY,mslp,1.0,0.0016136593361156628
+HZY_mslp_lag2,Neighbor raw lags,HZY,mslp,2.0,0.0011237083067254282
+HZY_mslp_lag3,Neighbor raw lags,HZY,mslp,3.0,0.0007932401474110188
+HZY_mslp_lag6,Neighbor raw lags,HZY,mslp,6.0,0.0003368341366088448
+HZY_p01i_lag1,Neighbor raw lags,HZY,p01i,1.0,0.0006381478602540659
+HZY_p01i_lag2,Neighbor raw lags,HZY,p01i,2.0,0.000671465829611003
+HZY_p01i_lag3,Neighbor raw lags,HZY,p01i,3.0,0.0
+HZY_p01i_lag6,Neighbor raw lags,HZY,p01i,6.0,0.0007614815960640436
+HZY_wx_snow_lag1,Neighbor raw lags,HZY,wx_snow,1.0,0.0001609761048507469
+HZY_wx_snow_lag2,Neighbor raw lags,HZY,wx_snow,2.0,0.0006516843203699612
+HZY_wx_snow_lag3,Neighbor raw lags,HZY,wx_snow,3.0,0.0
+HZY_wx_snow_lag6,Neighbor raw lags,HZY,wx_snow,6.0,0.0
+HZY_vsby_lag1,Neighbor raw lags,HZY,vsby,1.0,0.0026086752573001187
+HZY_vsby_lag2,Neighbor raw lags,HZY,vsby,2.0,0.0005346731303702855
+HZY_vsby_lag3,Neighbor raw lags,HZY,vsby,3.0,0.0020663945340805164
+HZY_vsby_lag6,Neighbor raw lags,HZY,vsby,6.0,0.0034029282368168985
+BIV_tmpf_lag1,Neighbor raw lags,BIV,tmpf,1.0,0.004319909322290852
+BIV_tmpf_lag2,Neighbor raw lags,BIV,tmpf,2.0,0.0037867433230621386
+BIV_tmpf_lag3,Neighbor raw lags,BIV,tmpf,3.0,0.007549115526586384
+BIV_tmpf_lag6,Neighbor raw lags,BIV,tmpf,6.0,0.004775709152541954
+BIV_dwpf_lag1,Neighbor raw lags,BIV,dwpf,1.0,0.01305113871689033
+BIV_dwpf_lag2,Neighbor raw lags,BIV,dwpf,2.0,0.00397693806600385
+BIV_dwpf_lag3,Neighbor raw lags,BIV,dwpf,3.0,0.00017924921741502094
+BIV_dwpf_lag6,Neighbor raw lags,BIV,dwpf,6.0,0.00208375045844755
+BIV_u_lag1,Neighbor raw lags,BIV,u,1.0,0.002708348978529257
+BIV_u_lag2,Neighbor raw lags,BIV,u,2.0,0.004391361425272505
+BIV_u_lag3,Neighbor raw lags,BIV,u,3.0,0.003076753999328799
+BIV_u_lag6,Neighbor raw lags,BIV,u,6.0,0.006037590297139343
+BIV_v_lag1,Neighbor raw lags,BIV,v,1.0,0.02043351983086495
+BIV_v_lag2,Neighbor raw lags,BIV,v,2.0,0.023308022933641922
+BIV_v_lag3,Neighbor raw lags,BIV,v,3.0,0.004499128337155466
+BIV_v_lag6,Neighbor raw lags,BIV,v,6.0,0.0024322198496717394
+BIV_mslp_lag1,Neighbor raw lags,BIV,mslp,1.0,0.0025703156350500985
+BIV_mslp_lag2,Neighbor raw lags,BIV,mslp,2.0,0.0033504378013652536
+BIV_mslp_lag3,Neighbor raw lags,BIV,mslp,3.0,0.001972624855303232
+BIV_mslp_lag6,Neighbor raw lags,BIV,mslp,6.0,0.002574473000192536
+BIV_p01i_lag1,Neighbor raw lags,BIV,p01i,1.0,0.0005754059750317543
+BIV_p01i_lag2,Neighbor raw lags,BIV,p01i,2.0,0.0010256073821347136
+BIV_p01i_lag3,Neighbor raw lags,BIV,p01i,3.0,0.0003823132621869719
+BIV_p01i_lag6,Neighbor raw lags,BIV,p01i,6.0,0.0004026542365812118
+BIV_wx_snow_lag1,Neighbor raw lags,BIV,wx_snow,1.0,0.0048676829170468845
+BIV_wx_snow_lag2,Neighbor raw lags,BIV,wx_snow,2.0,0.0
+BIV_wx_snow_lag3,Neighbor raw lags,BIV,wx_snow,3.0,0.0002833397093230688
+BIV_wx_snow_lag6,Neighbor raw lags,BIV,wx_snow,6.0,0.0
+BIV_vsby_lag1,Neighbor raw lags,BIV,vsby,1.0,0.0009319513244339256
+BIV_vsby_lag2,Neighbor raw lags,BIV,vsby,2.0,9.003390071262677e-05
+BIV_vsby_lag3,Neighbor raw lags,BIV,vsby,3.0,0.0002860970434024174
+BIV_vsby_lag6,Neighbor raw lags,BIV,vsby,6.0,0.00041792603604069197
+OSU_tmpf_lag1,Neighbor raw lags,OSU,tmpf,1.0,0.0002735672001165367
+OSU_tmpf_lag2,Neighbor raw lags,OSU,tmpf,2.0,0.0003266615695817455
+OSU_tmpf_lag3,Neighbor raw lags,OSU,tmpf,3.0,0.002029414534778324
+OSU_tmpf_lag6,Neighbor raw lags,OSU,tmpf,6.0,0.0012380670991426796
+OSU_dwpf_lag1,Neighbor raw lags,OSU,dwpf,1.0,0.00070437959909775
+OSU_dwpf_lag2,Neighbor raw lags,OSU,dwpf,2.0,0.00047493320446411304
+OSU_dwpf_lag3,Neighbor raw lags,OSU,dwpf,3.0,0.00233425671836302
+OSU_dwpf_lag6,Neighbor raw lags,OSU,dwpf,6.0,0.0004933067412566502
+OSU_u_lag1,Neighbor raw lags,OSU,u,1.0,0.0023420278951854375
+OSU_u_lag2,Neighbor raw lags,OSU,u,2.0,0.0020031887918985085
+OSU_u_lag3,Neighbor raw lags,OSU,u,3.0,0.006960298344723165
+OSU_u_lag6,Neighbor raw lags,OSU,u,6.0,0.0008090353536606653
+OSU_v_lag1,Neighbor raw lags,OSU,v,1.0,0.0052271673510729715
+OSU_v_lag2,Neighbor raw lags,OSU,v,2.0,0.002727920378103425
+OSU_v_lag3,Neighbor raw lags,OSU,v,3.0,0.0007560768340055024
+OSU_v_lag6,Neighbor raw lags,OSU,v,6.0,0.003260167773933098
+OSU_mslp_lag1,Neighbor raw lags,OSU,mslp,1.0,0.001048077005433195
+OSU_mslp_lag2,Neighbor raw lags,OSU,mslp,2.0,0.002909028207678282
+OSU_mslp_lag3,Neighbor raw lags,OSU,mslp,3.0,0.0001786213891052342
+OSU_mslp_lag6,Neighbor raw lags,OSU,mslp,6.0,0.0012258482092758751
+OSU_p01i_lag1,Neighbor raw lags,OSU,p01i,1.0,0.0005302944928245037
+OSU_p01i_lag2,Neighbor raw lags,OSU,p01i,2.0,0.00046318725973999416
+OSU_p01i_lag3,Neighbor raw lags,OSU,p01i,3.0,0.0
+OSU_p01i_lag6,Neighbor raw lags,OSU,p01i,6.0,0.0
+OSU_wx_snow_lag1,Neighbor raw lags,OSU,wx_snow,1.0,6.89980549669464e-05
+OSU_wx_snow_lag2,Neighbor raw lags,OSU,wx_snow,2.0,0.0
+OSU_wx_snow_lag3,Neighbor raw lags,OSU,wx_snow,3.0,0.00010998125135906249
+OSU_wx_snow_lag6,Neighbor raw lags,OSU,wx_snow,6.0,0.0
+OSU_vsby_lag1,Neighbor raw lags,OSU,vsby,1.0,0.00010655773555835621
+OSU_vsby_lag2,Neighbor raw lags,OSU,vsby,2.0,0.00097253877486718
+OSU_vsby_lag3,Neighbor raw lags,OSU,vsby,3.0,0.0025224218441285435
+OSU_vsby_lag6,Neighbor raw lags,OSU,vsby,6.0,0.0
+YNG_tmpf_lag1,Neighbor raw lags,YNG,tmpf,1.0,0.0013212932903781574
+YNG_tmpf_lag2,Neighbor raw lags,YNG,tmpf,2.0,0.010707499016188487
+YNG_tmpf_lag3,Neighbor raw lags,YNG,tmpf,3.0,0.0026412386094736393
+YNG_tmpf_lag6,Neighbor raw lags,YNG,tmpf,6.0,0.001159419037094617
+YNG_dwpf_lag1,Neighbor raw lags,YNG,dwpf,1.0,0.0007562440688169535
+YNG_dwpf_lag2,Neighbor raw lags,YNG,dwpf,2.0,0.0006079792249232181
+YNG_dwpf_lag3,Neighbor raw lags,YNG,dwpf,3.0,0.0008773569213348081
+YNG_dwpf_lag6,Neighbor raw lags,YNG,dwpf,6.0,0.005336009539330238
+YNG_u_lag1,Neighbor raw lags,YNG,u,1.0,0.006695984088796864
+YNG_u_lag2,Neighbor raw lags,YNG,u,2.0,0.0017232893230828686
+YNG_u_lag3,Neighbor raw lags,YNG,u,3.0,0.0032803499452315867
+YNG_u_lag6,Neighbor raw lags,YNG,u,6.0,0.004235578578730816
+YNG_v_lag1,Neighbor raw lags,YNG,v,1.0,0.0014790512914002372
+YNG_v_lag2,Neighbor raw lags,YNG,v,2.0,0.004396128687430939
+YNG_v_lag3,Neighbor raw lags,YNG,v,3.0,0.009851075212688298
+YNG_v_lag6,Neighbor raw lags,YNG,v,6.0,0.004180323691869246
+YNG_mslp_lag1,Neighbor raw lags,YNG,mslp,1.0,0.0021356757443788343
+YNG_mslp_lag2,Neighbor raw lags,YNG,mslp,2.0,0.0026635706427964654
+YNG_mslp_lag3,Neighbor raw lags,YNG,mslp,3.0,0.0010740977227844128
+YNG_mslp_lag6,Neighbor raw lags,YNG,mslp,6.0,0.0013842911515594756
+YNG_p01i_lag1,Neighbor raw lags,YNG,p01i,1.0,0.0001861216344312367
+YNG_p01i_lag2,Neighbor raw lags,YNG,p01i,2.0,0.0
+YNG_p01i_lag3,Neighbor raw lags,YNG,p01i,3.0,0.0003123811286910041
+YNG_p01i_lag6,Neighbor raw lags,YNG,p01i,6.0,0.0020108811621003374
+YNG_wx_snow_lag1,Neighbor raw lags,YNG,wx_snow,1.0,0.0
+YNG_wx_snow_lag2,Neighbor raw lags,YNG,wx_snow,2.0,0.0008224912805212712
+YNG_wx_snow_lag3,Neighbor raw lags,YNG,wx_snow,3.0,0.00018811151083615327
+YNG_wx_snow_lag6,Neighbor raw lags,YNG,wx_snow,6.0,0.0006412318998724457
+YNG_vsby_lag1,Neighbor raw lags,YNG,vsby,1.0,0.0009643946039280104
+YNG_vsby_lag2,Neighbor raw lags,YNG,vsby,2.0,0.0024092408777812947
+YNG_vsby_lag3,Neighbor raw lags,YNG,vsby,3.0,0.0014577441168043181
+YNG_vsby_lag6,Neighbor raw lags,YNG,vsby,6.0,0.0013557662660960194
+CMH_tmpf_lag1,Neighbor raw lags,CMH,tmpf,1.0,0.0008369316664241555
+CMH_tmpf_lag2,Neighbor raw lags,CMH,tmpf,2.0,0.011677675780288822
+CMH_tmpf_lag3,Neighbor raw lags,CMH,tmpf,3.0,0.0008030733330095291
+CMH_tmpf_lag6,Neighbor raw lags,CMH,tmpf,6.0,0.006433200083905025
+CMH_dwpf_lag1,Neighbor raw lags,CMH,dwpf,1.0,0.00490725570508311
+CMH_dwpf_lag2,Neighbor raw lags,CMH,dwpf,2.0,0.010950355455172402
+CMH_dwpf_lag3,Neighbor raw lags,CMH,dwpf,3.0,0.00024228267995735786
+CMH_dwpf_lag6,Neighbor raw lags,CMH,dwpf,6.0,0.0011513778378614105
+CMH_u_lag1,Neighbor raw lags,CMH,u,1.0,0.001622263612849384
+CMH_u_lag2,Neighbor raw lags,CMH,u,2.0,0.006023966893341114
+CMH_u_lag3,Neighbor raw lags,CMH,u,3.0,0.00043493377122761734
+CMH_u_lag6,Neighbor raw lags,CMH,u,6.0,0.0023493919369663567
+CMH_v_lag1,Neighbor raw lags,CMH,v,1.0,0.001216693845896878
+CMH_v_lag2,Neighbor raw lags,CMH,v,2.0,0.0015190244510410115
+CMH_v_lag3,Neighbor raw lags,CMH,v,3.0,0.0013160586077166293
+CMH_v_lag6,Neighbor raw lags,CMH,v,6.0,0.004004966205732846
+CMH_mslp_lag1,Neighbor raw lags,CMH,mslp,1.0,0.0005882494571472813
+CMH_mslp_lag2,Neighbor raw lags,CMH,mslp,2.0,0.00048055084061012935
+CMH_mslp_lag3,Neighbor raw lags,CMH,mslp,3.0,0.00028764514765322786
+CMH_mslp_lag6,Neighbor raw lags,CMH,mslp,6.0,0.0014807067109724916
+CMH_p01i_lag1,Neighbor raw lags,CMH,p01i,1.0,8.319268472322354e-05
+CMH_p01i_lag2,Neighbor raw lags,CMH,p01i,2.0,0.0
+CMH_p01i_lag3,Neighbor raw lags,CMH,p01i,3.0,0.00038894436700633803
+CMH_p01i_lag6,Neighbor raw lags,CMH,p01i,6.0,0.0005154794618446606
+CMH_wx_snow_lag1,Neighbor raw lags,CMH,wx_snow,1.0,0.0
+CMH_wx_snow_lag2,Neighbor raw lags,CMH,wx_snow,2.0,0.0
+CMH_wx_snow_lag3,Neighbor raw lags,CMH,wx_snow,3.0,9.087757823039105e-05
+CMH_wx_snow_lag6,Neighbor raw lags,CMH,wx_snow,6.0,7.427699315283305e-05
+CMH_vsby_lag1,Neighbor raw lags,CMH,vsby,1.0,5.594946647722654e-05
+CMH_vsby_lag2,Neighbor raw lags,CMH,vsby,2.0,0.0006520706763666929
+CMH_vsby_lag3,Neighbor raw lags,CMH,vsby,3.0,0.0005154352672349483
+CMH_vsby_lag6,Neighbor raw lags,CMH,vsby,6.0,0.0008661932626332321
+PHD_tmpf_lag1,Neighbor raw lags,PHD,tmpf,1.0,0.0027140108232556284
+PHD_tmpf_lag2,Neighbor raw lags,PHD,tmpf,2.0,0.003209770733672665
+PHD_tmpf_lag3,Neighbor raw lags,PHD,tmpf,3.0,0.0014297656107912409
+PHD_tmpf_lag6,Neighbor raw lags,PHD,tmpf,6.0,0.000708403453469163
+PHD_dwpf_lag1,Neighbor raw lags,PHD,dwpf,1.0,0.0013805583382509904
+PHD_dwpf_lag2,Neighbor raw lags,PHD,dwpf,2.0,0.005185850462296094
+PHD_dwpf_lag3,Neighbor raw lags,PHD,dwpf,3.0,0.001102217407594083
+PHD_dwpf_lag6,Neighbor raw lags,PHD,dwpf,6.0,0.0013877377469164536
+PHD_u_lag1,Neighbor raw lags,PHD,u,1.0,0.00237761017719471
+PHD_u_lag2,Neighbor raw lags,PHD,u,2.0,0.0007802653169945122
+PHD_u_lag3,Neighbor raw lags,PHD,u,3.0,0.00413960366669471
+PHD_u_lag6,Neighbor raw lags,PHD,u,6.0,0.000798456494429034
+PHD_v_lag1,Neighbor raw lags,PHD,v,1.0,0.01188556267602655
+PHD_v_lag2,Neighbor raw lags,PHD,v,2.0,0.0017380047734557298
+PHD_v_lag3,Neighbor raw lags,PHD,v,3.0,0.006816481299622113
+PHD_v_lag6,Neighbor raw lags,PHD,v,6.0,0.0014447746661765835
+PHD_mslp_lag1,Neighbor raw lags,PHD,mslp,1.0,0.002295550016624169
+PHD_mslp_lag2,Neighbor raw lags,PHD,mslp,2.0,0.0021024391135329515
+PHD_mslp_lag3,Neighbor raw lags,PHD,mslp,3.0,0.000535900731634973
+PHD_mslp_lag6,Neighbor raw lags,PHD,mslp,6.0,0.0015319526530553035
+PHD_p01i_lag1,Neighbor raw lags,PHD,p01i,1.0,0.0
+PHD_p01i_lag2,Neighbor raw lags,PHD,p01i,2.0,0.0002968039429970597
+PHD_p01i_lag3,Neighbor raw lags,PHD,p01i,3.0,0.0005029599591361651
+PHD_p01i_lag6,Neighbor raw lags,PHD,p01i,6.0,0.002843228588449478
+PHD_wx_snow_lag1,Neighbor raw lags,PHD,wx_snow,1.0,0.0
+PHD_wx_snow_lag2,Neighbor raw lags,PHD,wx_snow,2.0,0.00016540995490400734
+PHD_wx_snow_lag3,Neighbor raw lags,PHD,wx_snow,3.0,0.0
+PHD_wx_snow_lag6,Neighbor raw lags,PHD,wx_snow,6.0,0.0
+PHD_vsby_lag1,Neighbor raw lags,PHD,vsby,1.0,0.004197148783817908
+PHD_vsby_lag2,Neighbor raw lags,PHD,vsby,2.0,0.0011648277032319028
+PHD_vsby_lag3,Neighbor raw lags,PHD,vsby,3.0,0.000582758709908125
+PHD_vsby_lag6,Neighbor raw lags,PHD,vsby,6.0,0.00030113112694729366
+SBN_tmpf_lag1,Neighbor raw lags,SBN,tmpf,1.0,0.17307910897694773
+SBN_tmpf_lag2,Neighbor raw lags,SBN,tmpf,2.0,0.024188800113807665
+SBN_tmpf_lag3,Neighbor raw lags,SBN,tmpf,3.0,0.0017241685179133761
+SBN_tmpf_lag6,Neighbor raw lags,SBN,tmpf,6.0,0.0018522503618817088
+SBN_dwpf_lag1,Neighbor raw lags,SBN,dwpf,1.0,0.004158295154798634
+SBN_dwpf_lag2,Neighbor raw lags,SBN,dwpf,2.0,0.0037038362510669657
+SBN_dwpf_lag3,Neighbor raw lags,SBN,dwpf,3.0,0.0017904253030304013
+SBN_dwpf_lag6,Neighbor raw lags,SBN,dwpf,6.0,0.00023252021752462562
+SBN_u_lag1,Neighbor raw lags,SBN,u,1.0,0.006733743138875697
+SBN_u_lag2,Neighbor raw lags,SBN,u,2.0,0.004925112604728506
+SBN_u_lag3,Neighbor raw lags,SBN,u,3.0,0.002820071668069624
+SBN_u_lag6,Neighbor raw lags,SBN,u,6.0,0.011781251718963784
+SBN_v_lag1,Neighbor raw lags,SBN,v,1.0,0.008603421816816274
+SBN_v_lag2,Neighbor raw lags,SBN,v,2.0,0.007316614137155614
+SBN_v_lag3,Neighbor raw lags,SBN,v,3.0,0.0021790120288390307
+SBN_v_lag6,Neighbor raw lags,SBN,v,6.0,0.0005264617540899527
+SBN_mslp_lag1,Neighbor raw lags,SBN,mslp,1.0,0.0010921570864959255
+SBN_mslp_lag2,Neighbor raw lags,SBN,mslp,2.0,0.00744118230522951
+SBN_mslp_lag3,Neighbor raw lags,SBN,mslp,3.0,0.0008908786737371109
+SBN_mslp_lag6,Neighbor raw lags,SBN,mslp,6.0,0.0015002963748654175
+SBN_p01i_lag1,Neighbor raw lags,SBN,p01i,1.0,0.003186502188604647
+SBN_p01i_lag2,Neighbor raw lags,SBN,p01i,2.0,9.286620887146186e-05
+SBN_p01i_lag3,Neighbor raw lags,SBN,p01i,3.0,0.0002746888814597164
+SBN_p01i_lag6,Neighbor raw lags,SBN,p01i,6.0,0.00021774277259253418
+SBN_wx_snow_lag1,Neighbor raw lags,SBN,wx_snow,1.0,0.004211671002363729
+SBN_wx_snow_lag2,Neighbor raw lags,SBN,wx_snow,2.0,0.0018331426841619494
+SBN_wx_snow_lag3,Neighbor raw lags,SBN,wx_snow,3.0,8.714880382078169e-05
+SBN_wx_snow_lag6,Neighbor raw lags,SBN,wx_snow,6.0,0.0
+SBN_vsby_lag1,Neighbor raw lags,SBN,vsby,1.0,0.014845147933450582
+SBN_vsby_lag2,Neighbor raw lags,SBN,vsby,2.0,0.0006788643247666884
+SBN_vsby_lag3,Neighbor raw lags,SBN,vsby,3.0,0.0008568121878067798
+SBN_vsby_lag6,Neighbor raw lags,SBN,vsby,6.0,0.0016066260147185904
+BEH_tmpf_lag1,Neighbor raw lags,BEH,tmpf,1.0,0.06663767140053622
+BEH_tmpf_lag2,Neighbor raw lags,BEH,tmpf,2.0,0.03824471553110566
+BEH_tmpf_lag3,Neighbor raw lags,BEH,tmpf,3.0,0.045875709718686444
+BEH_tmpf_lag6,Neighbor raw lags,BEH,tmpf,6.0,0.0019362797879166258
+BEH_dwpf_lag1,Neighbor raw lags,BEH,dwpf,1.0,0.026936896863383082
+BEH_dwpf_lag2,Neighbor raw lags,BEH,dwpf,2.0,0.011997374339362982
+BEH_dwpf_lag3,Neighbor raw lags,BEH,dwpf,3.0,0.017528064297606703
+BEH_dwpf_lag6,Neighbor raw lags,BEH,dwpf,6.0,0.004183894254770179
+BEH_u_lag1,Neighbor raw lags,BEH,u,1.0,0.011029162752163972
+BEH_u_lag2,Neighbor raw lags,BEH,u,2.0,0.016679957738626898
+BEH_u_lag3,Neighbor raw lags,BEH,u,3.0,0.00790754570828023
+BEH_u_lag6,Neighbor raw lags,BEH,u,6.0,0.008841048210542001
+BEH_v_lag1,Neighbor raw lags,BEH,v,1.0,0.00718161969824319
+BEH_v_lag2,Neighbor raw lags,BEH,v,2.0,0.005098977219305494
+BEH_v_lag3,Neighbor raw lags,BEH,v,3.0,0.0012079174323198656
+BEH_v_lag6,Neighbor raw lags,BEH,v,6.0,0.002037874015979213
+BEH_mslp_lag1,Neighbor raw lags,BEH,mslp,1.0,0.002212991366848733
+BEH_mslp_lag2,Neighbor raw lags,BEH,mslp,2.0,0.0037805130573479394
+BEH_mslp_lag3,Neighbor raw lags,BEH,mslp,3.0,0.003784031944915079
+BEH_mslp_lag6,Neighbor raw lags,BEH,mslp,6.0,0.005797023914338084
+BEH_p01i_lag1,Neighbor raw lags,BEH,p01i,1.0,0.00019764409976509185
+BEH_p01i_lag2,Neighbor raw lags,BEH,p01i,2.0,0.00037703858794078206
+BEH_p01i_lag3,Neighbor raw lags,BEH,p01i,3.0,0.0015213531860919477
+BEH_p01i_lag6,Neighbor raw lags,BEH,p01i,6.0,0.0
+BEH_wx_snow_lag1,Neighbor raw lags,BEH,wx_snow,1.0,0.005397731981105909
+BEH_wx_snow_lag2,Neighbor raw lags,BEH,wx_snow,2.0,0.0
+BEH_wx_snow_lag3,Neighbor raw lags,BEH,wx_snow,3.0,2.7793932104461666e-05
+BEH_wx_snow_lag6,Neighbor raw lags,BEH,wx_snow,6.0,0.0
+BEH_vsby_lag1,Neighbor raw lags,BEH,vsby,1.0,0.001209834343245201
+BEH_vsby_lag2,Neighbor raw lags,BEH,vsby,2.0,0.0014331522307521696
+BEH_vsby_lag3,Neighbor raw lags,BEH,vsby,3.0,0.003835971024293309
+BEH_vsby_lag6,Neighbor raw lags,BEH,vsby,6.0,0.0009749968138618846
+VTA_tmpf_lag1,Neighbor raw lags,VTA,tmpf,1.0,0.0010503987798833134
+VTA_tmpf_lag2,Neighbor raw lags,VTA,tmpf,2.0,0.00038457147600321547
+VTA_tmpf_lag3,Neighbor raw lags,VTA,tmpf,3.0,0.005235385938760884
+VTA_tmpf_lag6,Neighbor raw lags,VTA,tmpf,6.0,0.004645216472518927
+VTA_dwpf_lag1,Neighbor raw lags,VTA,dwpf,1.0,0.0017642731171679613
+VTA_dwpf_lag2,Neighbor raw lags,VTA,dwpf,2.0,0.001931614407612242
+VTA_dwpf_lag3,Neighbor raw lags,VTA,dwpf,3.0,0.00015862857403254888
+VTA_dwpf_lag6,Neighbor raw lags,VTA,dwpf,6.0,0.0002151520081148374
+VTA_u_lag1,Neighbor raw lags,VTA,u,1.0,0.0024209115963202787
+VTA_u_lag2,Neighbor raw lags,VTA,u,2.0,0.013904993931029092
+VTA_u_lag3,Neighbor raw lags,VTA,u,3.0,0.010626002479230044
+VTA_u_lag6,Neighbor raw lags,VTA,u,6.0,0.006423118648275637
+VTA_v_lag1,Neighbor raw lags,VTA,v,1.0,0.009212905273900939
+VTA_v_lag2,Neighbor raw lags,VTA,v,2.0,0.0015685460319359715
+VTA_v_lag3,Neighbor raw lags,VTA,v,3.0,0.0021458827226710693
+VTA_v_lag6,Neighbor raw lags,VTA,v,6.0,0.0011756982023984836
+VTA_mslp_lag1,Neighbor raw lags,VTA,mslp,1.0,0.0029898876640905973
+VTA_mslp_lag2,Neighbor raw lags,VTA,mslp,2.0,0.0019365454431274954
+VTA_mslp_lag3,Neighbor raw lags,VTA,mslp,3.0,0.0012389683654520872
+VTA_mslp_lag6,Neighbor raw lags,VTA,mslp,6.0,0.0025019699539370705
+VTA_p01i_lag1,Neighbor raw lags,VTA,p01i,1.0,0.00013382852307444696
+VTA_p01i_lag2,Neighbor raw lags,VTA,p01i,2.0,0.00041753706851248876
+VTA_p01i_lag3,Neighbor raw lags,VTA,p01i,3.0,0.00030258009474588783
+VTA_p01i_lag6,Neighbor raw lags,VTA,p01i,6.0,0.0
+VTA_wx_snow_lag1,Neighbor raw lags,VTA,wx_snow,1.0,8.30730364324285e-05
+VTA_wx_snow_lag2,Neighbor raw lags,VTA,wx_snow,2.0,0.0
+VTA_wx_snow_lag3,Neighbor raw lags,VTA,wx_snow,3.0,0.0
+VTA_wx_snow_lag6,Neighbor raw lags,VTA,wx_snow,6.0,0.0
+VTA_vsby_lag1,Neighbor raw lags,VTA,vsby,1.0,0.00016120325705370258
+VTA_vsby_lag2,Neighbor raw lags,VTA,vsby,2.0,0.0003810269961366042
+VTA_vsby_lag3,Neighbor raw lags,VTA,vsby,3.0,0.001632623810021802
+VTA_vsby_lag6,Neighbor raw lags,VTA,vsby,6.0,0.002099415017141997
+MKG_tmpf_lag1,Neighbor raw lags,MKG,tmpf,1.0,0.004943251101209342
+MKG_tmpf_lag2,Neighbor raw lags,MKG,tmpf,2.0,0.0012736100715849221
+MKG_tmpf_lag3,Neighbor raw lags,MKG,tmpf,3.0,0.008644378131175624
+MKG_tmpf_lag6,Neighbor raw lags,MKG,tmpf,6.0,0.002968516803772064
+MKG_dwpf_lag1,Neighbor raw lags,MKG,dwpf,1.0,0.003866258933941156
+MKG_dwpf_lag2,Neighbor raw lags,MKG,dwpf,2.0,0.016785736217387496
+MKG_dwpf_lag3,Neighbor raw lags,MKG,dwpf,3.0,0.01044188240823375
+MKG_dwpf_lag6,Neighbor raw lags,MKG,dwpf,6.0,0.0020092209419270207
+MKG_u_lag1,Neighbor raw lags,MKG,u,1.0,0.007946686342372715
+MKG_u_lag2,Neighbor raw lags,MKG,u,2.0,0.004275165008803518
+MKG_u_lag3,Neighbor raw lags,MKG,u,3.0,0.003271660083467274
+MKG_u_lag6,Neighbor raw lags,MKG,u,6.0,0.003980057166012707
+MKG_v_lag1,Neighbor raw lags,MKG,v,1.0,0.018551437744978336
+MKG_v_lag2,Neighbor raw lags,MKG,v,2.0,0.007852550388647694
+MKG_v_lag3,Neighbor raw lags,MKG,v,3.0,0.006875957837370697
+MKG_v_lag6,Neighbor raw lags,MKG,v,6.0,0.0019631352908642532
+MKG_mslp_lag1,Neighbor raw lags,MKG,mslp,1.0,0.0043196088806420506
+MKG_mslp_lag2,Neighbor raw lags,MKG,mslp,2.0,0.00406867432507401
+MKG_mslp_lag3,Neighbor raw lags,MKG,mslp,3.0,0.0028434242646617294
+MKG_mslp_lag6,Neighbor raw lags,MKG,mslp,6.0,0.005179372513687845
+MKG_p01i_lag1,Neighbor raw lags,MKG,p01i,1.0,0.00033537141846783905
+MKG_p01i_lag2,Neighbor raw lags,MKG,p01i,2.0,0.000812114967581342
+MKG_p01i_lag3,Neighbor raw lags,MKG,p01i,3.0,0.0013255738888458624
+MKG_p01i_lag6,Neighbor raw lags,MKG,p01i,6.0,0.00037931080191319497
+MKG_wx_snow_lag1,Neighbor raw lags,MKG,wx_snow,1.0,0.0012397339056053052
+MKG_wx_snow_lag2,Neighbor raw lags,MKG,wx_snow,2.0,0.00012283819543400408
+MKG_wx_snow_lag3,Neighbor raw lags,MKG,wx_snow,3.0,0.00019232321143420654
+MKG_wx_snow_lag6,Neighbor raw lags,MKG,wx_snow,6.0,0.0
+MKG_vsby_lag1,Neighbor raw lags,MKG,vsby,1.0,0.002482853132093605
+MKG_vsby_lag2,Neighbor raw lags,MKG,vsby,2.0,0.003933408623061886
+MKG_vsby_lag3,Neighbor raw lags,MKG,vsby,3.0,0.0014535378937578713
+MKG_vsby_lag6,Neighbor raw lags,MKG,vsby,6.0,0.0017636073508026076
+HTL_tmpf_lag1,Neighbor raw lags,HTL,tmpf,1.0,0.00688006667643417
+HTL_tmpf_lag2,Neighbor raw lags,HTL,tmpf,2.0,0.0027805613171924715
+HTL_tmpf_lag3,Neighbor raw lags,HTL,tmpf,3.0,0.002342354402114409
+HTL_tmpf_lag6,Neighbor raw lags,HTL,tmpf,6.0,0.0014787948895632367
+HTL_dwpf_lag1,Neighbor raw lags,HTL,dwpf,1.0,0.006676797966014918
+HTL_dwpf_lag2,Neighbor raw lags,HTL,dwpf,2.0,0.011136860773818577
+HTL_dwpf_lag3,Neighbor raw lags,HTL,dwpf,3.0,0.01277129955156632
+HTL_dwpf_lag6,Neighbor raw lags,HTL,dwpf,6.0,0.0018672716303880445
+HTL_u_lag1,Neighbor raw lags,HTL,u,1.0,0.002665836148446142
+HTL_u_lag2,Neighbor raw lags,HTL,u,2.0,0.0073449992424944556
+HTL_u_lag3,Neighbor raw lags,HTL,u,3.0,0.0028745533272965945
+HTL_u_lag6,Neighbor raw lags,HTL,u,6.0,0.002304307722775974
+HTL_v_lag1,Neighbor raw lags,HTL,v,1.0,0.01160605376183446
+HTL_v_lag2,Neighbor raw lags,HTL,v,2.0,0.008003603424441355
+HTL_v_lag3,Neighbor raw lags,HTL,v,3.0,0.009980582076570758
+HTL_v_lag6,Neighbor raw lags,HTL,v,6.0,0.0061522154984700985
+HTL_mslp_lag1,Neighbor raw lags,HTL,mslp,1.0,0.003250433145319354
+HTL_mslp_lag2,Neighbor raw lags,HTL,mslp,2.0,0.003677527443203595
+HTL_mslp_lag3,Neighbor raw lags,HTL,mslp,3.0,0.002545110139105278
+HTL_mslp_lag6,Neighbor raw lags,HTL,mslp,6.0,0.004074609974594552
+HTL_p01i_lag1,Neighbor raw lags,HTL,p01i,1.0,0.002494388552575677
+HTL_p01i_lag2,Neighbor raw lags,HTL,p01i,2.0,0.00047182087553785274
+HTL_p01i_lag3,Neighbor raw lags,HTL,p01i,3.0,0.0003614507284483549
+HTL_p01i_lag6,Neighbor raw lags,HTL,p01i,6.0,0.001074891712255346
+HTL_wx_snow_lag1,Neighbor raw lags,HTL,wx_snow,1.0,0.0005567274818610613
+HTL_wx_snow_lag2,Neighbor raw lags,HTL,wx_snow,2.0,0.0006618778562498756
+HTL_wx_snow_lag3,Neighbor raw lags,HTL,wx_snow,3.0,0.0
+HTL_wx_snow_lag6,Neighbor raw lags,HTL,wx_snow,6.0,0.00019711373982187993
+HTL_vsby_lag1,Neighbor raw lags,HTL,vsby,1.0,0.0024910270711198165
+HTL_vsby_lag2,Neighbor raw lags,HTL,vsby,2.0,0.0009217593826447351
+HTL_vsby_lag3,Neighbor raw lags,HTL,vsby,3.0,0.0012255517579561452
+HTL_vsby_lag6,Neighbor raw lags,HTL,vsby,6.0,0.0028039149513446188
+DAY_tmpf_lag1,Neighbor raw lags,DAY,tmpf,1.0,0.003928156259016952
+DAY_tmpf_lag2,Neighbor raw lags,DAY,tmpf,2.0,0.0019562084846352977
+DAY_tmpf_lag3,Neighbor raw lags,DAY,tmpf,3.0,0.0007687596195902198
+DAY_tmpf_lag6,Neighbor raw lags,DAY,tmpf,6.0,0.0008332815087801386
+DAY_dwpf_lag1,Neighbor raw lags,DAY,dwpf,1.0,0.0030182408614593086
+DAY_dwpf_lag2,Neighbor raw lags,DAY,dwpf,2.0,0.0007524855158227151
+DAY_dwpf_lag3,Neighbor raw lags,DAY,dwpf,3.0,0.0010558338919069866
+DAY_dwpf_lag6,Neighbor raw lags,DAY,dwpf,6.0,0.0006562062687346448
+DAY_u_lag1,Neighbor raw lags,DAY,u,1.0,0.002935618419642673
+DAY_u_lag2,Neighbor raw lags,DAY,u,2.0,0.002012333897507514
+DAY_u_lag3,Neighbor raw lags,DAY,u,3.0,0.0019971831730123918
+DAY_u_lag6,Neighbor raw lags,DAY,u,6.0,0.0022208595639894415
+DAY_v_lag1,Neighbor raw lags,DAY,v,1.0,0.002279086037165854
+DAY_v_lag2,Neighbor raw lags,DAY,v,2.0,0.004104214775300606
+DAY_v_lag3,Neighbor raw lags,DAY,v,3.0,0.002615638282613728
+DAY_v_lag6,Neighbor raw lags,DAY,v,6.0,0.002906577644953423
+DAY_mslp_lag1,Neighbor raw lags,DAY,mslp,1.0,0.008317271056534077
+DAY_mslp_lag2,Neighbor raw lags,DAY,mslp,2.0,0.0021128132194183514
+DAY_mslp_lag3,Neighbor raw lags,DAY,mslp,3.0,0.000324681762421116
+DAY_mslp_lag6,Neighbor raw lags,DAY,mslp,6.0,0.0010974259994448194
+DAY_p01i_lag1,Neighbor raw lags,DAY,p01i,1.0,0.0009910189870644052
+DAY_p01i_lag2,Neighbor raw lags,DAY,p01i,2.0,0.0005766306544901295
+DAY_p01i_lag3,Neighbor raw lags,DAY,p01i,3.0,0.0015626066020165497
+DAY_p01i_lag6,Neighbor raw lags,DAY,p01i,6.0,0.0
+DAY_wx_snow_lag1,Neighbor raw lags,DAY,wx_snow,1.0,0.001113410043780267
+DAY_wx_snow_lag2,Neighbor raw lags,DAY,wx_snow,2.0,0.0
+DAY_wx_snow_lag3,Neighbor raw lags,DAY,wx_snow,3.0,0.0
+DAY_wx_snow_lag6,Neighbor raw lags,DAY,wx_snow,6.0,0.00014450811876090658
+DAY_vsby_lag1,Neighbor raw lags,DAY,vsby,1.0,0.0008822421090551677
+DAY_vsby_lag2,Neighbor raw lags,DAY,vsby,2.0,0.00036892679935075605
+DAY_vsby_lag3,Neighbor raw lags,DAY,vsby,3.0,8.828583037307206e-05
+DAY_vsby_lag6,Neighbor raw lags,DAY,vsby,6.0,0.0006130553590061703
+SGH_tmpf_lag1,Neighbor raw lags,SGH,tmpf,1.0,0.006686837942701186
+SGH_tmpf_lag2,Neighbor raw lags,SGH,tmpf,2.0,0.011334385951864588
+SGH_tmpf_lag3,Neighbor raw lags,SGH,tmpf,3.0,0.0012815753757927414
+SGH_tmpf_lag6,Neighbor raw lags,SGH,tmpf,6.0,0.004136699936206231
+SGH_dwpf_lag1,Neighbor raw lags,SGH,dwpf,1.0,0.0025385166709806185
+SGH_dwpf_lag2,Neighbor raw lags,SGH,dwpf,2.0,0.0015729656431383626
+SGH_dwpf_lag3,Neighbor raw lags,SGH,dwpf,3.0,0.011707209924482572
+SGH_dwpf_lag6,Neighbor raw lags,SGH,dwpf,6.0,0.00282518894003612
+SGH_u_lag1,Neighbor raw lags,SGH,u,1.0,0.0016382832659365782
+SGH_u_lag2,Neighbor raw lags,SGH,u,2.0,0.003381980188726976
+SGH_u_lag3,Neighbor raw lags,SGH,u,3.0,0.003239944301859779
+SGH_u_lag6,Neighbor raw lags,SGH,u,6.0,0.008387161244069338
+SGH_v_lag1,Neighbor raw lags,SGH,v,1.0,0.004285595778256983
+SGH_v_lag2,Neighbor raw lags,SGH,v,2.0,0.0018239434133565063
+SGH_v_lag3,Neighbor raw lags,SGH,v,3.0,0.001867158213134439
+SGH_v_lag6,Neighbor raw lags,SGH,v,6.0,0.005545080143360917
+SGH_mslp_lag1,Neighbor raw lags,SGH,mslp,1.0,0.010078673724721824
+SGH_mslp_lag2,Neighbor raw lags,SGH,mslp,2.0,0.0036175896110961945
+SGH_mslp_lag3,Neighbor raw lags,SGH,mslp,3.0,0.002792910804408001
+SGH_mslp_lag6,Neighbor raw lags,SGH,mslp,6.0,0.0030998622811235963
+SGH_p01i_lag1,Neighbor raw lags,SGH,p01i,1.0,0.0011975224537957476
+SGH_p01i_lag2,Neighbor raw lags,SGH,p01i,2.0,0.00040465647577307343
+SGH_p01i_lag3,Neighbor raw lags,SGH,p01i,3.0,0.0
+SGH_p01i_lag6,Neighbor raw lags,SGH,p01i,6.0,0.0018891506542968808
+SGH_wx_snow_lag1,Neighbor raw lags,SGH,wx_snow,1.0,6.30216552995555e-05
+SGH_wx_snow_lag2,Neighbor raw lags,SGH,wx_snow,2.0,0.0
+SGH_wx_snow_lag3,Neighbor raw lags,SGH,wx_snow,3.0,0.0
+SGH_wx_snow_lag6,Neighbor raw lags,SGH,wx_snow,6.0,0.0008517968345990554
+SGH_vsby_lag1,Neighbor raw lags,SGH,vsby,1.0,0.005681708216496673
+SGH_vsby_lag2,Neighbor raw lags,SGH,vsby,2.0,0.01283412616242218
+SGH_vsby_lag3,Neighbor raw lags,SGH,vsby,3.0,0.01235568594248074
+SGH_vsby_lag6,Neighbor raw lags,SGH,vsby,6.0,0.013162474111382983
+LHQ_tmpf_lag1,Neighbor raw lags,LHQ,tmpf,1.0,0.001938979521310315
+LHQ_tmpf_lag2,Neighbor raw lags,LHQ,tmpf,2.0,0.001755318998495376
+LHQ_tmpf_lag3,Neighbor raw lags,LHQ,tmpf,3.0,0.004457843108096952
+LHQ_tmpf_lag6,Neighbor raw lags,LHQ,tmpf,6.0,0.0007553328609805553
+LHQ_dwpf_lag1,Neighbor raw lags,LHQ,dwpf,1.0,0.00035324222220394435
+LHQ_dwpf_lag2,Neighbor raw lags,LHQ,dwpf,2.0,0.0011708002881398525
+LHQ_dwpf_lag3,Neighbor raw lags,LHQ,dwpf,3.0,0.0017410060338499715
+LHQ_dwpf_lag6,Neighbor raw lags,LHQ,dwpf,6.0,0.0009441408738284846
+LHQ_u_lag1,Neighbor raw lags,LHQ,u,1.0,0.0075721377705904105
+LHQ_u_lag2,Neighbor raw lags,LHQ,u,2.0,0.004622356405810276
+LHQ_u_lag3,Neighbor raw lags,LHQ,u,3.0,0.0022013084820257985
+LHQ_u_lag6,Neighbor raw lags,LHQ,u,6.0,0.0033591193115826558
+LHQ_v_lag1,Neighbor raw lags,LHQ,v,1.0,0.005318735803747478
+LHQ_v_lag2,Neighbor raw lags,LHQ,v,2.0,0.0027326294171172174
+LHQ_v_lag3,Neighbor raw lags,LHQ,v,3.0,0.0029209798624203853
+LHQ_v_lag6,Neighbor raw lags,LHQ,v,6.0,0.003924321544956035
+LHQ_mslp_lag1,Neighbor raw lags,LHQ,mslp,1.0,0.006280967916579641
+LHQ_mslp_lag2,Neighbor raw lags,LHQ,mslp,2.0,0.0019026096645013628
+LHQ_mslp_lag3,Neighbor raw lags,LHQ,mslp,3.0,0.0012829008458220181
+LHQ_mslp_lag6,Neighbor raw lags,LHQ,mslp,6.0,0.0025060671752552984
+LHQ_p01i_lag1,Neighbor raw lags,LHQ,p01i,1.0,0.0
+LHQ_p01i_lag2,Neighbor raw lags,LHQ,p01i,2.0,0.00012709721770486532
+LHQ_p01i_lag3,Neighbor raw lags,LHQ,p01i,3.0,0.0
+LHQ_p01i_lag6,Neighbor raw lags,LHQ,p01i,6.0,0.0
+LHQ_wx_snow_lag1,Neighbor raw lags,LHQ,wx_snow,1.0,0.0
+LHQ_wx_snow_lag2,Neighbor raw lags,LHQ,wx_snow,2.0,2.5309805275770736e-05
+LHQ_wx_snow_lag3,Neighbor raw lags,LHQ,wx_snow,3.0,0.0
+LHQ_wx_snow_lag6,Neighbor raw lags,LHQ,wx_snow,6.0,0.0
+LHQ_vsby_lag1,Neighbor raw lags,LHQ,vsby,1.0,0.00020728792584649694
+LHQ_vsby_lag2,Neighbor raw lags,LHQ,vsby,2.0,0.0003567077626043159
+LHQ_vsby_lag3,Neighbor raw lags,LHQ,vsby,3.0,0.0005622869276945572
+LHQ_vsby_lag6,Neighbor raw lags,LHQ,vsby,6.0,0.00039435231036519805
+ZZV_tmpf_lag1,Neighbor raw lags,ZZV,tmpf,1.0,0.00306323798158615
+ZZV_tmpf_lag2,Neighbor raw lags,ZZV,tmpf,2.0,0.002072951923056938
+ZZV_tmpf_lag3,Neighbor raw lags,ZZV,tmpf,3.0,0.002764531649879078
+ZZV_tmpf_lag6,Neighbor raw lags,ZZV,tmpf,6.0,0.004457015058189765
+ZZV_dwpf_lag1,Neighbor raw lags,ZZV,dwpf,1.0,0.0003355181558629753
+ZZV_dwpf_lag2,Neighbor raw lags,ZZV,dwpf,2.0,0.00027636453377174027
+ZZV_dwpf_lag3,Neighbor raw lags,ZZV,dwpf,3.0,0.0035578427207106126
+ZZV_dwpf_lag6,Neighbor raw lags,ZZV,dwpf,6.0,0.003179857804496104
+ZZV_u_lag1,Neighbor raw lags,ZZV,u,1.0,0.0020239218348795003
+ZZV_u_lag2,Neighbor raw lags,ZZV,u,2.0,0.002025652486157702
+ZZV_u_lag3,Neighbor raw lags,ZZV,u,3.0,0.0023402389047735357
+ZZV_u_lag6,Neighbor raw lags,ZZV,u,6.0,0.0024821737021234027
+ZZV_v_lag1,Neighbor raw lags,ZZV,v,1.0,0.0021142963024275902
+ZZV_v_lag2,Neighbor raw lags,ZZV,v,2.0,0.0030066290666615906
+ZZV_v_lag3,Neighbor raw lags,ZZV,v,3.0,0.008940846354777283
+ZZV_v_lag6,Neighbor raw lags,ZZV,v,6.0,0.002389294057193065
+ZZV_mslp_lag1,Neighbor raw lags,ZZV,mslp,1.0,0.0005756586959554082
+ZZV_mslp_lag2,Neighbor raw lags,ZZV,mslp,2.0,0.0024789788162006532
+ZZV_mslp_lag3,Neighbor raw lags,ZZV,mslp,3.0,0.0019459030925433624
+ZZV_mslp_lag6,Neighbor raw lags,ZZV,mslp,6.0,0.001350998552211598
+ZZV_p01i_lag1,Neighbor raw lags,ZZV,p01i,1.0,0.0
+ZZV_p01i_lag2,Neighbor raw lags,ZZV,p01i,2.0,0.0010895197134525758
+ZZV_p01i_lag3,Neighbor raw lags,ZZV,p01i,3.0,0.0
+ZZV_p01i_lag6,Neighbor raw lags,ZZV,p01i,6.0,0.00014418931299722568
+ZZV_wx_snow_lag1,Neighbor raw lags,ZZV,wx_snow,1.0,7.629610711092937e-05
+ZZV_wx_snow_lag2,Neighbor raw lags,ZZV,wx_snow,2.0,0.0
+ZZV_wx_snow_lag3,Neighbor raw lags,ZZV,wx_snow,3.0,0.0
+ZZV_wx_snow_lag6,Neighbor raw lags,ZZV,wx_snow,6.0,6.456275017335712e-05
+ZZV_vsby_lag1,Neighbor raw lags,ZZV,vsby,1.0,0.00018433240404317378
+ZZV_vsby_lag2,Neighbor raw lags,ZZV,vsby,2.0,0.00020466270937276407
+ZZV_vsby_lag3,Neighbor raw lags,ZZV,vsby,3.0,0.0004990073686692784
+ZZV_vsby_lag6,Neighbor raw lags,ZZV,vsby,6.0,0.0009740759466690253
+agg_idw_tmpf_lag1,Spatial aggregates,,idw_tmpf,1.0,0.012454618136376076
+agg_idw_tmpf_lag2,Spatial aggregates,,idw_tmpf,2.0,8.476809135943533e-05
+agg_idw_tmpf_lag3,Spatial aggregates,,idw_tmpf,3.0,0.0008772723417619124
+agg_idw_tmpf_lag6,Spatial aggregates,,idw_tmpf,6.0,0.002175412661649188
+agg_idw_dwpf_lag1,Spatial aggregates,,idw_dwpf,1.0,0.01258243269579889
+agg_idw_dwpf_lag2,Spatial aggregates,,idw_dwpf,2.0,0.0024059864710682115
+agg_idw_dwpf_lag3,Spatial aggregates,,idw_dwpf,3.0,0.0049561815064617255
+agg_idw_dwpf_lag6,Spatial aggregates,,idw_dwpf,6.0,0.0010243724380496807
+agg_idw_mslp_lag1,Spatial aggregates,,idw_mslp,1.0,0.0017297047972051499
+agg_idw_mslp_lag2,Spatial aggregates,,idw_mslp,2.0,0.0
+agg_idw_mslp_lag3,Spatial aggregates,,idw_mslp,3.0,0.0005373347864329157
+agg_idw_mslp_lag6,Spatial aggregates,,idw_mslp,6.0,0.000173889469304587
+agg_idw_p01i_lag1,Spatial aggregates,,idw_p01i,1.0,0.006581767572368045
+agg_idw_p01i_lag2,Spatial aggregates,,idw_p01i,2.0,0.0032029117792259244
+agg_idw_p01i_lag3,Spatial aggregates,,idw_p01i,3.0,0.002962025979196599
+agg_idw_p01i_lag6,Spatial aggregates,,idw_p01i,6.0,0.005566386783313698
+agg_snow_count_r0_100_lag1,Spatial aggregates,,snow_count_r0_100,1.0,0.11341376435150743
+agg_snow_count_r0_100_lag2,Spatial aggregates,,snow_count_r0_100,2.0,0.0009974974281978196
+agg_snow_count_r0_100_lag3,Spatial aggregates,,snow_count_r0_100,3.0,0.0005701842402642017
+agg_snow_count_r0_100_lag6,Spatial aggregates,,snow_count_r0_100,6.0,0.0
+agg_snow_frac_r0_100_lag1,Spatial aggregates,,snow_frac_r0_100,1.0,0.12158382393297282
+agg_snow_frac_r0_100_lag2,Spatial aggregates,,snow_frac_r0_100,2.0,0.022150963731545025
+agg_snow_frac_r0_100_lag3,Spatial aggregates,,snow_frac_r0_100,3.0,0.0019947011227165394
+agg_snow_frac_r0_100_lag6,Spatial aggregates,,snow_frac_r0_100,6.0,0.00039590553117880873
+agg_snow_count_r100_200_lag1,Spatial aggregates,,snow_count_r100_200,1.0,0.1422560258782877
+agg_snow_count_r100_200_lag2,Spatial aggregates,,snow_count_r100_200,2.0,0.04595445882423373
+agg_snow_count_r100_200_lag3,Spatial aggregates,,snow_count_r100_200,3.0,0.003075278151285547
+agg_snow_count_r100_200_lag6,Spatial aggregates,,snow_count_r100_200,6.0,0.001503775777860946
+agg_snow_frac_r100_200_lag1,Spatial aggregates,,snow_frac_r100_200,1.0,0.17038497518123283
+agg_snow_frac_r100_200_lag2,Spatial aggregates,,snow_frac_r100_200,2.0,0.022276986209524015
+agg_snow_frac_r100_200_lag3,Spatial aggregates,,snow_frac_r100_200,3.0,0.0028195324837316884
+agg_snow_frac_r100_200_lag6,Spatial aggregates,,snow_frac_r100_200,6.0,0.0021635707690519476
+agg_snow_count_r200_300_lag1,Spatial aggregates,,snow_count_r200_300,1.0,0.0746568373002822
+agg_snow_count_r200_300_lag2,Spatial aggregates,,snow_count_r200_300,2.0,0.016412340685119507
+agg_snow_count_r200_300_lag3,Spatial aggregates,,snow_count_r200_300,3.0,0.000932705161458742
+agg_snow_count_r200_300_lag6,Spatial aggregates,,snow_count_r200_300,6.0,0.0036648687351846275
+agg_snow_frac_r200_300_lag1,Spatial aggregates,,snow_frac_r200_300,1.0,0.07532628878064195
+agg_snow_frac_r200_300_lag2,Spatial aggregates,,snow_frac_r200_300,2.0,0.002535498525918123
+agg_snow_frac_r200_300_lag3,Spatial aggregates,,snow_frac_r200_300,3.0,0.0006226064464279175
+agg_snow_frac_r200_300_lag6,Spatial aggregates,,snow_frac_r200_300,6.0,0.00444670100756843
+agg_sector_W_snow_frac_lag1,Spatial aggregates,,sector_W_snow_frac,1.0,0.14724849997062478
+agg_sector_W_snow_frac_lag2,Spatial aggregates,,sector_W_snow_frac,2.0,0.035483854001683406
+agg_sector_W_snow_frac_lag3,Spatial aggregates,,sector_W_snow_frac,3.0,0.0009502935215781438
+agg_sector_W_snow_frac_lag6,Spatial aggregates,,sector_W_snow_frac,6.0,0.002891872015794361
+agg_sector_W_p01i_sum_lag1,Spatial aggregates,,sector_W_p01i_sum,1.0,0.004596528510455431
+agg_sector_W_p01i_sum_lag2,Spatial aggregates,,sector_W_p01i_sum,2.0,0.004258565078475783
+agg_sector_W_p01i_sum_lag3,Spatial aggregates,,sector_W_p01i_sum,3.0,0.0006592522059159506
+agg_sector_W_p01i_sum_lag6,Spatial aggregates,,sector_W_p01i_sum,6.0,0.0006191857733558076
+agg_sector_SW_snow_frac_lag1,Spatial aggregates,,sector_SW_snow_frac,1.0,0.021494413700400703
+agg_sector_SW_snow_frac_lag2,Spatial aggregates,,sector_SW_snow_frac,2.0,0.00032398336175808244
+agg_sector_SW_snow_frac_lag3,Spatial aggregates,,sector_SW_snow_frac,3.0,0.00020508382502089755
+agg_sector_SW_snow_frac_lag6,Spatial aggregates,,sector_SW_snow_frac,6.0,0.0
+agg_sector_SW_p01i_sum_lag1,Spatial aggregates,,sector_SW_p01i_sum,1.0,0.00835217380208168
+agg_sector_SW_p01i_sum_lag2,Spatial aggregates,,sector_SW_p01i_sum,2.0,0.0004914772354236377
+agg_sector_SW_p01i_sum_lag3,Spatial aggregates,,sector_SW_p01i_sum,3.0,8.737768518608697e-05
+agg_sector_SW_p01i_sum_lag6,Spatial aggregates,,sector_SW_p01i_sum,6.0,0.0
+agg_sector_NW_snow_frac_lag1,Spatial aggregates,,sector_NW_snow_frac,1.0,0.0942334552855957
+agg_sector_NW_snow_frac_lag2,Spatial aggregates,,sector_NW_snow_frac,2.0,0.01997803847832289
+agg_sector_NW_snow_frac_lag3,Spatial aggregates,,sector_NW_snow_frac,3.0,0.0006817526077751425
+agg_sector_NW_snow_frac_lag6,Spatial aggregates,,sector_NW_snow_frac,6.0,0.0002605847002713143
+agg_sector_NW_p01i_sum_lag1,Spatial aggregates,,sector_NW_p01i_sum,1.0,0.0012217308273588755
+agg_sector_NW_p01i_sum_lag2,Spatial aggregates,,sector_NW_p01i_sum,2.0,0.0004520779266950731
+agg_sector_NW_p01i_sum_lag3,Spatial aggregates,,sector_NW_p01i_sum,3.0,0.00031431553250108697
+agg_sector_NW_p01i_sum_lag6,Spatial aggregates,,sector_NW_p01i_sum,6.0,9.725531529238048e-05
+agg_sector_N_snow_frac_lag1,Spatial aggregates,,sector_N_snow_frac,1.0,0.014826803141471072
+agg_sector_N_snow_frac_lag2,Spatial aggregates,,sector_N_snow_frac,2.0,0.0024258826691801417
+agg_sector_N_snow_frac_lag3,Spatial aggregates,,sector_N_snow_frac,3.0,0.0001903030545264013
+agg_sector_N_snow_frac_lag6,Spatial aggregates,,sector_N_snow_frac,6.0,0.0006720910053632191
+agg_sector_N_p01i_sum_lag1,Spatial aggregates,,sector_N_p01i_sum,1.0,0.0
+agg_sector_N_p01i_sum_lag2,Spatial aggregates,,sector_N_p01i_sum,2.0,0.00038446837526760454
+agg_sector_N_p01i_sum_lag3,Spatial aggregates,,sector_N_p01i_sum,3.0,0.0
+agg_sector_N_p01i_sum_lag6,Spatial aggregates,,sector_N_p01i_sum,6.0,8.79332976523041e-05
+agg_sector_S_snow_frac_lag1,Spatial aggregates,,sector_S_snow_frac,1.0,0.0029370673866962937
+agg_sector_S_snow_frac_lag2,Spatial aggregates,,sector_S_snow_frac,2.0,0.0
+agg_sector_S_snow_frac_lag3,Spatial aggregates,,sector_S_snow_frac,3.0,0.0001422269810856499
+agg_sector_S_snow_frac_lag6,Spatial aggregates,,sector_S_snow_frac,6.0,0.00030236043846227153
+agg_sector_S_p01i_sum_lag1,Spatial aggregates,,sector_S_p01i_sum,1.0,0.0009038032739214204
+agg_sector_S_p01i_sum_lag2,Spatial aggregates,,sector_S_p01i_sum,2.0,0.0006098039761537568
+agg_sector_S_p01i_sum_lag3,Spatial aggregates,,sector_S_p01i_sum,3.0,0.000805545067565397
+agg_sector_S_p01i_sum_lag6,Spatial aggregates,,sector_S_p01i_sum,6.0,0.00015079462961086422
+agg_sector_E_snow_frac_lag1,Spatial aggregates,,sector_E_snow_frac,1.0,0.00015901793444846537
+agg_sector_E_snow_frac_lag2,Spatial aggregates,,sector_E_snow_frac,2.0,0.0
+agg_sector_E_snow_frac_lag3,Spatial aggregates,,sector_E_snow_frac,3.0,0.0
+agg_sector_E_snow_frac_lag6,Spatial aggregates,,sector_E_snow_frac,6.0,0.0
+agg_sector_E_p01i_sum_lag1,Spatial aggregates,,sector_E_p01i_sum,1.0,0.0
+agg_sector_E_p01i_sum_lag2,Spatial aggregates,,sector_E_p01i_sum,2.0,0.00022247949461282816
+agg_sector_E_p01i_sum_lag3,Spatial aggregates,,sector_E_p01i_sum,3.0,5.286102612162722e-05
+agg_sector_E_p01i_sum_lag6,Spatial aggregates,,sector_E_p01i_sum,6.0,0.0020434715503991905
+agg_upstream_snow_frac_lag1,Spatial aggregates,,upstream_snow_frac,1.0,0.07777998883348626
+agg_upstream_snow_frac_lag2,Spatial aggregates,,upstream_snow_frac,2.0,0.03371723719011363
+agg_upstream_snow_frac_lag3,Spatial aggregates,,upstream_snow_frac,3.0,0.008534171774467556
+agg_upstream_snow_frac_lag6,Spatial aggregates,,upstream_snow_frac,6.0,0.0007996887395579344
+agg_upstream_idw_p01i_lag1,Spatial aggregates,,upstream_idw_p01i,1.0,0.009669894840164929
+agg_upstream_idw_p01i_lag2,Spatial aggregates,,upstream_idw_p01i,2.0,0.0041833468396799516
+agg_upstream_idw_p01i_lag3,Spatial aggregates,,upstream_idw_p01i,3.0,0.0037420856584565064
+agg_upstream_idw_p01i_lag6,Spatial aggregates,,upstream_idw_p01i,6.0,0.004581813557395315
+agg_mslp_grad_mag_lag1,Spatial aggregates,,mslp_grad_mag,1.0,0.0059038769709395655
+agg_mslp_grad_mag_lag2,Spatial aggregates,,mslp_grad_mag,2.0,0.0058043729826796585
+agg_mslp_grad_mag_lag3,Spatial aggregates,,mslp_grad_mag,3.0,0.0033786856226638564
+agg_mslp_grad_mag_lag6,Spatial aggregates,,mslp_grad_mag,6.0,0.0011613320231623244
+agg_mslp_grad_dir_lag1,Spatial aggregates,,mslp_grad_dir,1.0,0.0021676349634932846
+agg_mslp_grad_dir_lag2,Spatial aggregates,,mslp_grad_dir,2.0,0.005811852518809605
+agg_mslp_grad_dir_lag3,Spatial aggregates,,mslp_grad_dir,3.0,0.002869161847142621
+agg_mslp_grad_dir_lag6,Spatial aggregates,,mslp_grad_dir,6.0,0.000747090445205988
+agg_tmpf_spread_lag1,Spatial aggregates,,tmpf_spread,1.0,0.0027266365817459224
+agg_tmpf_spread_lag2,Spatial aggregates,,tmpf_spread,2.0,0.00353482261071699
+agg_tmpf_spread_lag3,Spatial aggregates,,tmpf_spread,3.0,0.002011409368044505
+agg_tmpf_spread_lag6,Spatial aggregates,,tmpf_spread,6.0,0.0014258469648067412
+agg_n_reporting_lag1,Spatial aggregates,,n_reporting,1.0,0.00011936805645114008
+agg_n_reporting_lag2,Spatial aggregates,,n_reporting,2.0,0.0
+agg_n_reporting_lag3,Spatial aggregates,,n_reporting,3.0,0.00024570616193133807
+agg_n_reporting_lag6,Spatial aggregates,,n_reporting,6.0,4.4329588802626354e-05
+hod_sin,Time,,hod_sin,,0.06958076977098783
+hod_cos,Time,,hod_cos,,0.0051996011322591115
+doy_sin,Time,,doy_sin,,0.025397006626983732
+doy_cos,Time,,doy_cos,,0.017361210210473956

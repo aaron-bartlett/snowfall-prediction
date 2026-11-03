@@ -1,0 +1,23 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash -el {0}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: mamba-org/setup-micromamba@v2
+        with:
+          environment-file: environment.yml
+          cache-environment: true
+      - name: Unit tests (offline; data checks are deselected by pytest.ini)
+        run: python -m pytest
+      - name: Build docs figures from committed artifacts
+        run: python -m src.viz --check --out "$RUNNER_TEMP/figures"

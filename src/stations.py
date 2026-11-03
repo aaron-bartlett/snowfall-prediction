@@ -24,7 +24,7 @@ NET_DIR = ROOT / "data" / "meta" / "networks"
 COV_DIR = ROOT / "data" / "meta" / "coverage"
 CANDIDATES_PATH = ROOT / "meta" / "station_candidates.csv"
 STATIONS_PATH = ROOT / "meta" / "stations.csv"
-MAP_PATH = ROOT / "station_map.png"
+MAP_PATH = ROOT / "reports" / "figures" / "station_map.png"
 
 STATION_COLS = ["sid", "name", "network", "lat", "lon", "elev_m", "dist_km", "bearing_deg",
                 "x_km", "y_km", "temp_cov", "precip_cov"]

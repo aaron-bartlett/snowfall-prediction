@@ -1,88 +1,119 @@
-# KDTW Hourly Snowfall Model
+# Hourly snowfall nowcasting at Detroit Metro Airport
 
-Nowcasts of hourly snowfall at Detroit Metro Airport (KDTW) **1 h and 3 h ahead**, from lagged
-surface observations at KDTW and 39 surrounding ASOS stations (≤ 300 km). For each lead there is one
-two-stage LightGBM *hurdle* model:
+[![CI](https://github.com/aaron-bartlett/snowfall-prediction/actions/workflows/ci.yml/badge.svg)](https://github.com/aaron-bartlett/snowfall-prediction/actions/workflows/ci.yml)
+![Python 3.11](https://img.shields.io/badge/python-3.11-blue)
+![LightGBM](https://img.shields.io/badge/model-LightGBM-2a78d6)
+![License: MIT](https://img.shields.io/badge/license-MIT-lightgrey)
 
-- **Stage 1** classifier: P(falling snow, trace or more), isotonic-calibrated.
-- **Stage 2** regressor (Tweedie): E[SWE | snow], trained on all snow hours with trace = 0.
-- Outputs: `P(snow)`, expected SWE = P × amount, deterministic SWE (amount if P ≥ τ, else 0), and
-  depth = expected SWE × a temperature-dependent snow-to-liquid ratio.
+This project predicts **whether it will snow, and how much, in each hour at Detroit Metro Airport
+(KDTW), 1 and 3 hours ahead**. The inputs are recent observations from KDTW and 39 surrounding
+airport weather stations, and the model is a two-stage LightGBM.
 
-Data: IEM ASOS/AWOS archive (2005–06 to 2025–26 cold seasons, Oct–Apr), with GHCN-Daily `SNOW` at
-`USW00094847` used as a cross-check. Whole seasons are randomly split 15 train / 3 val / 3 test
-(`meta/splits.json`, seed 42). See [`project_plan.md`](project_plan.md) for the design,
-[`execution_plan.md`](execution_plan.md) for the step-by-step procedure, and
-[`reports/execution_log.md`](reports/execution_log.md) for what was actually run.
+![Largest test-season storm: observed vs forecast](docs/figures/f27_case_largest_storm.png)
 
-## Setup
+## At a glance
 
-```bash
-conda env create -f environment.yml          # or: conda env create -f environment.lock.yml (exact versions)
-conda activate snowfall
-python -m pytest                             # offline unit tests (< 1 min)
+- **It beats both baselines on every headline score at both leads**, on three winters held out
+  and scored once.
+- **3 hours ahead**, the Brier skill score is **0.46**, against **−0.02** for persistence ("it will
+  keep doing what it's doing"). CSI is 0.49 vs 0.38.
+- **The probabilities are calibrated.** A forecast of 70% snow verifies about 70% of the time.
+- **21 winters of public data** from 40 stations, about 5 million station-hours, built into 1,627
+  leakage-tested features.
+
+| lead | system | Brier skill | PR-AUC | CSI | RMSE SWE (in) |
+|---|---|---|---|---|---|
+| 1 h | **model** | **0.613** | **0.834** | **0.624** | **0.0033** |
+| 1 h | persistence | 0.406 | 0.573 | 0.590 | 0.0043 |
+| 3 h | **model** | **0.460** | **0.705** | **0.490** | **0.0041** |
+| 3 h | persistence | −0.024 | 0.346 | 0.385 | 0.0062 |
+| — | climatology | 0 | 0.164 | 0 | 0.0053 |
+
+![Skill summary](docs/figures/f20_skill_summary.png)
+
+## How it works
+
+```mermaid
+flowchart LR
+    A["IEM ASOS archive<br/>40 stations, 2005–2026"] --> B["Clean & QC<br/>routine METARs,<br/>hourly grid"]
+    G["NOAA GHCN-Daily<br/>official snowfall"] -.validates.-> C
+    B --> C["Target<br/>gauge SWE in<br/>snow-reported hours"]
+    B --> D["Features<br/>1,627 per lead,<br/>obs ≤ t − L only"]
+    C --> E["Hurdle model<br/>P(snow) × E[SWE | snow]"]
+    D --> E
+    E --> F["Evaluation<br/>3 held-out winters,<br/>scored once"]
 ```
 
-## Pipeline (run from the project root, in order)
+1. **Data.** Hourly METARs for KDTW and every station within 300 km with enough temperature and
+   precipitation coverage: 39 of 133 candidates.
+2. **Target.** Airports don't report hourly snowfall, so the target is the gauge's liquid
+   equivalent during hours with falling snow. It was checked against official daily snowfall.
+3. **Features.** Lagged observations plus network summaries: snow coverage by distance ring and
+   compass sector, an upstream cone that follows the wind, and a fitted pressure gradient.
+4. **Model.** A calibrated LightGBM classifier ("will it snow?") times a Tweedie regressor ("how
+   much?"), tuned with season-grouped cross-validation.
 
-| Step | Command | Output |
-|---|---|---|
-| 0. Season split (once, never regenerated) | `python -m src.splits` | `meta/splits.json` |
-| 1. Station selection | `python -m src.stations --map` | `meta/stations.csv`, `station_map.png` |
-| 2. Download IEM + GHCN | `python -m src.download --all` | `data/raw/` |
-| 3. Clean / QC to hourly | `python -m src.clean` | `data/processed/hourly.parquet` |
-| 4. Target + GHCN check | `python -m src.target` | `data/processed/target.parquet`, `reports/target_validation.md` |
-| 5. Feature matrices | `python -m src.features --lead all` | `data/processed/features_L{1,3}.parquet` |
-| 6. Tune, fit, calibrate | `python -m src.train --lead all` (≈ 3.5 h) | `models/lead_{1,3}h/` |
-| 7. Test evaluation (once) | `python -m src.evaluate --final` | `reports/test_report.md` |
+## What the model learned
 
-Each script prints `DONE <script>` on success and `FAILED <script>: <reason>` (exit 1) on failure.
-Per-phase data checks: `python -m pytest -m data tests/data_checks/test_phaseN.py`.
+![Which stations the model relies on at 1 h vs 3 h](docs/figures/f14_shap_geo.png)
 
-`src.evaluate --final` refuses to run again once `reports/TEST_EVALUATED.lock` exists (use `--force`
-only if you deliberately accept re-scoring the test seasons).
+At 1 hour the model leans on Detroit's own cloud ceiling and on snow reports from nearby stations.
+At 3 hours its attention moves to stations 100–250 km **west**, which is upwind in typical winter
+flow. Those station weights were learned from data, not hand-set. → [Feature engineering](docs/03-features.md)
 
-## Model weights
+## Built to be trusted
 
-`models/lead_1h/` and `models/lead_3h/` each contain:
+- **Whole-winter splits.** Seasons were assigned at random to train/validation/test (15/3/3) and
+  frozen before any data was examined.
+- **Test scored once.** A lock file makes the final evaluation refuse to re-run.
+- **Leakage tests.** Index-encoding and future-poisoning tests show no feature can see the target
+  hour.
+- **Tested.** About 100 unit tests run in CI.
+- **Reusable weights.** The trained weights are committed with a load/predict API.
 
-- `stage1_classifier.txt`, `stage2_regressor.txt`: LightGBM native model files (the weights)
-- `calibrator.json`: isotonic X/Y thresholds for Stage 1
-- `metadata.json`: ordered feature list, parameters, Stage 2 variant, τ, seasons, versions, validation metrics
+## Limitations
 
-Load them with `src.model.HurdleModel.load("models/lead_1h")`; `predict(df)` selects the features by
-name in the stored order and raises if any is missing.
+- **Heavy hours are underpredicted.** At ≥ 0.06 in/h the mean forecast is 0.050 at 1 h against
+  0.070 observed, so storm totals come out 12% (1 h) and 30% (3 h) low.
+- **The target inherits gauge undercatch.** It captures about 82% of official snowfall on test
+  days.
+- **There are no Ontario stations,** which leaves a gap to the east (mostly downstream).
 
-## Predicting
+## Explore
+
+| | |
+|---|---|
+| [1. Data and stations](docs/01-data.md) | Sources, station selection, METAR cleaning, availability |
+| [2. Defining hourly snowfall](docs/02-target.md) | Target construction, GHCN validation, season split |
+| [3. Feature engineering](docs/03-features.md) | Time cutoff, spatial aggregates, SHAP, ablation |
+| [4. Model and training](docs/04-model.md) | Hurdle model, tuning, calibration, threshold |
+| [5. Test results](docs/05-results.md) | Full results, case studies, limitations |
+| [6. Reproducing](docs/06-reproduce.md) | Environment, pipeline, figures |
+
+## Quickstart
 
 ```bash
-python -m src.predict --lead 1 --time 2018-01-12T15:00Z
+conda env create -f environment.yml && conda activate snowfall
+python -m pytest            # unit tests, offline, < 1 min
+python -m src.viz           # redraw every docs figure from committed artifacts
 ```
 
-This reads that hour's feature row from `data/processed/features_L1.parquet` and prints `p_snow`,
-`swe_expected_in`, `swe_deterministic_in` and `depth_expected_in`. The time is the target hour-ending
-(UTC). The 1 h model uses observations up to t − 1 h, the 3 h model up to t − 3 h.
+```python
+from src.model import HurdleModel
+model = HurdleModel.load("models/lead_3h")   # P(snow), expected SWE, deterministic SWE, depth
+```
 
-## Test results
+The full pipeline (download → clean → target → features → train → evaluate) is in
+[docs/06-reproduce.md](docs/06-reproduce.md).
 
-Held-out test seasons **2015-16, 2020-21, 2021-22** (15,271 hours, 1,280 snow hours), scored once.
-Full tables, stratifications and figures: [`reports/test_report.md`](reports/test_report.md).
+## Project history
 
-| lead | system | Brier | BSS vs clim | ROC-AUC | PR-AUC | POD | FAR | CSI | RMSE SWE (in) |
-|---|---|---|---|---|---|---|---|---|---|
-| 1 h | **model** | **0.0281** | **0.613** | **0.982** | **0.834** | 0.757 | 0.220 | **0.624** | **0.0033** |
-| 1 h | persistence | 0.0432 | 0.406 | 0.859 | 0.573 | 0.742 | 0.257 | 0.590 | 0.0043 |
-| 3 h | **model** | **0.0392** | **0.460** | **0.963** | **0.705** | 0.676 | 0.359 | **0.490** | **0.0041** |
-| 3 h | persistence | 0.0744 | −0.024 | 0.758 | 0.346 | 0.556 | 0.444 | 0.385 | 0.0062 |
-| — | climatology | 0.0727 | 0 | 0.734 | 0.164 | 0 | — | 0 | 0.0053 |
+An earlier version of this project used a GRU network on daily GHCN data to predict snow depth
+(see the [`archive`](https://github.com/aaron-bartlett/snowfall-prediction/tree/archive) branch).
+This version replaces it with an hourly target, a 40-station observation network and a hurdle
+model, which together make an operationally meaningful nowcast.
 
-- Test skill is a little below validation (val BSS 0.666 / 0.503, CSI 0.666 / 0.530), as expected
-  since τ and the calibrator were fit on the validation seasons. The model still beats persistence on
-  every headline score at both leads, and the margin is much larger at 3 h.
-- Calibrated probabilities are close to reliable on test (see `reports/figures/reliability_L*.png`).
-- Weak spots: amounts are underpredicted in heavy hours (≥ 0.06 in/h: mean forecast 0.050 vs 0.070
-  observed at 1 h, 0.030 at 3 h), so event totals come out 12% (1 h) and 30% (3 h) low. On the
-  event-total error metric, persistence, which simply shifts the observed series, does better than the
-  model. At 0.01 in SWE the 1 h model's CSI (0.445) is slightly below persistence (0.459).
-- The derived-depth target itself captures about 82% of GHCN `SNOW` on test days (gauge undercatch).
-  The model's daily depth captures 77% (1 h) and 74% (3 h).
+## Data credits
+
+Observations come from the [Iowa Environmental Mesonet](https://mesonet.agron.iastate.edu/) ASOS/AWOS
+archive. Daily snowfall comes from [NOAA NCEI GHCN-Daily](https://www.ncei.noaa.gov/products/land-based-station/global-historical-climatology-network-daily).
